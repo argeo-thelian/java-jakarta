@@ -1,0 +1,22 @@
+
+S	java:S106
+"9Replace this use of System.out or System.err by a logger.(¤Ú±ôÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(šÊøãùÿÿÿÿ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(àúƒ{
+S	java:S106"9Replace this use of System.out or System.err by a logger.(µŸ”ëıÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(çß–¥ùÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(À´²˜
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¿Ú³îüÿÿÿÿ
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(‚””ğıÿÿÿÿ
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(°Áƒ‹ûÿÿÿÿ
+N	java:S106+"9Replace this use of System.out or System.err by a logger.(ñ ›¶
+S	java:S1063"9Replace this use of System.out or System.err by a logger.(†šíùÿÿÿÿ
+S	java:S1067"9Replace this use of System.out or System.err by a logger.(†šíùÿÿÿÿ
+Q	java:S125="<This block of commented-out lines of code should be removed.(äÏø½
+N	java:S106E"9Replace this use of System.out or System.err by a logger.(ŠË ·
+S	java:S106M"9Replace this use of System.out or System.err by a logger.(–‹‰‹üÿÿÿÿ
+N	java:S106N"9Replace this use of System.out or System.err by a logger.(ìªù©
+S	java:S106R"9Replace this use of System.out or System.err by a logger.(Ó´üûÿÿÿÿ
+S	java:S106T"9Replace this use of System.out or System.err by a logger.(ä³àñıÿÿÿÿ
+i
+java:S11923"NDefine a constant instead of duplicating this literal "Calendario = " 3 times.(†šíùÿÿÿÿ
