@@ -1,5 +1,8 @@
 package com.arthe.prueba.pruebadata;
 
+import java.util.Arrays;
+import java.util.List;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -19,4 +22,8 @@ public class PruebaDataApplication {
 		return String.format("Hello %s!", name);
 	}
 
+	public List<Boolean> dato(){
+		List<Boolean> datos = Arrays.asList(true, false); 
+		return datos;
+	}
 }

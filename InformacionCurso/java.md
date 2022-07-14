@@ -307,4 +307,4 @@ abstract public class Mamifero {
 
 - API de librerias.
 
-[<img src="img/abstract.png" width="50%"/>](img/herencia.jpg "Herencia Generalización") 
+[<img src="img/abstract.png" width="500%"/>](img/herencia.jpg "Herencia Generalización") 
