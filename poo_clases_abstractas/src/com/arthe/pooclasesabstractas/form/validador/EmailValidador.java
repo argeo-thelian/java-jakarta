@@ -2,7 +2,7 @@ package com.arthe.pooclasesabstractas.form.validador;
 
 public class EmailValidador extends Validador{
 
-    protected String mensaje = "El formato del email es inválido";
+    protected String mensaje = "El campo %s tiene un formato de correo inválido";
     //^ valida al comienzo;
     //(.) cualquier caracter;
     //+ se puede repetir n cantidad de veces
