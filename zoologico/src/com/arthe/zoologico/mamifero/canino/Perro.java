@@ -41,4 +41,9 @@ public class Perro extends Canino{
     public String comunicarse() {
         return super.comunicarse();
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + " dado que es perro fuerzaMordida = " + fuerzaMordida;
+    }
 }

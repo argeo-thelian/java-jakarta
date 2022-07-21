@@ -52,4 +52,11 @@ public class Leon extends Felino{
     public String comunicarse() {
         return super.comunicarse();
     }
+
+    @Override
+    public String toString() {
+        return  super.toString() + " dado que es Leon tiene " +
+                "numManada = " + numManada +
+                ", potenciaRugiendoDecibel = " + potenciaRugiendoDecibel;
+    }
 }

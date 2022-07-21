@@ -29,4 +29,9 @@ public class Guepardo extends Felino{
     public String comunicarse() {
         return super.comunicarse();
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + "dado que es Guepardo";
+    }
 }

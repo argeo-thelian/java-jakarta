@@ -52,4 +52,11 @@ public class Lobo extends Canino {
     public String comunicarse() {
         return super.comunicarse();
     }
+
+    @Override
+    public String toString() {
+        return super.toString() +
+                " dado que es Lobo, tiene numCamada=" + numCamada +
+                ", especieLobo='" + especieLobo;
+    }
 }

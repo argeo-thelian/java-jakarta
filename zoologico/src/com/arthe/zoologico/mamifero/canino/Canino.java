@@ -1,12 +1,11 @@
 package com.arthe.zoologico.mamifero.canino;
 
 import com.arthe.zoologico.mamifero.Mamifero;
-import com.arthe.zoologico.mamifero.MensajeFormateable;
 
 abstract public class Canino extends Mamifero {
     protected String color;
     protected Float tamanoColmillos;
-
+    protected String mensaje = "El canino %s debe de %s a la hora que el guste, tiene un color %s y un tamaño de colmillos %f";
 
     public Canino(String color, Float tamanoColmillos) {
         super();
@@ -38,22 +37,32 @@ abstract public class Canino extends Mamifero {
 
     @Override
     public String comer() {
-        return null;
+        return getAcciones("comer");
     }
 
     @Override
     public String dormir() {
-        return null;
+        return getAcciones("dormir");
     }
 
     @Override
     public String correr() {
-        return null;
+        return getAcciones("correr");
     }
 
     @Override
     public String comunicarse() {
-        return null;
+        return getAcciones("comunicarse");
     }
 
+    @Override
+    public String toString() {
+        return super.toString() + "de el tipo Canino con" +
+                "color= " + color +
+                ", tamanoColmillos= " + tamanoColmillos + " ";
+    }
+
+    public String getAcciones(String accion){
+       return String.format(this.mensaje, accion, this.color, this.tamanoColmillos);
+    }
 }

@@ -1,2 +1,10 @@
 
-N	java:S106"9Replace this use of System.out or System.err by a logger.( ·Ã«
+N	java:S106"9Replace this use of System.out or System.err by a logger.( ·Ã«
+U	java:S106"9Replace this use of System.out or System.err by a logger.(êÛÛ8°±á‘¡0
+_
+java:S1128"IRemove this unused import 'com.arthe.zoologico.mamifero.felino.Guepardo'.(ıÀˆ¹
+Q
+java:S1128"6Remove this unused import 'sun.java2d.loops.FillRect'.(åå¤´ıÿÿÿÿ
+e	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ÿØF
+P
+java:S1191"5Use classes from the Java API instead of Sun classes.(åå¤´ıÿÿÿÿ

@@ -63,4 +63,14 @@ abstract public class Mamifero {
     public void setNombreCientifico(String nombreCientifico) {
         this.nombreCientifico = nombreCientifico;
     }
+
+    @Override
+    public String toString() {
+        return "Se tiene el " +
+                "habitat= " + habitat +
+                ", altura=" + altura +
+                ", largo=" + largo +
+                ", peso=" + peso +
+                ", nombreCientifico = " + nombreCientifico + " ";
+    }
 }

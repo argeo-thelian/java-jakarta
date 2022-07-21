@@ -308,3 +308,79 @@ abstract public class Mamifero {
 - API de librerias.
 
 [<img src="img/abstract.png" width="500%"/>](img/herencia.jpg "Herencia Generalización") 
+
+## ¿Qué es una interface?
+
+- Una interfaz es una colección de métodos abstractos (sin implementar) y de valores constantes que puede realizar un objeto determinado.
+
+#### Concepto
+
+- Una interface es como una clase abstracta pero no permite que ninguno de sus métodos este implementado.
+
+- Captura similitudes entre clases no relacionadas sin forzar una relación entre ellas
+
+- Es decir definen comportamientos que una o varias clases necesitan implementar
+
+- Es un tipo de dato de referencia, puede utilizarse como tipo de dato del objeto (argumento de métodos y una declaración de variable).
+
+##### Diseño orientado a las interfaces
+
+- En java, las interfaces permiten pasas del estilo de diseño "orientado a la implementación" a uno "orientado a la interfaz".
+- Donde todas las clases acceden a servicios a través de interfaces que son implementadas por clases concretas.
+- Y al no depender de clases concretas (solo de entidades abstractas) nuestro diseño será más reutilizable.
+
+Ejemplo de : Interfaces
+
+```java
+public interface Imprimible {
+    public void imprimir();
+}
+```
+
+Clases que implementan interfaces
+```java
+public class Curriculum implements Imprimible {
+    @Override
+    public void imprimir(){
+        //imprimiendo el CV
+    }
+}
+```
+
+```java
+public class Foto implements Imprimible {
+    @Override
+    public void imprimir(){
+        //Imprimiendo una Foto
+    }
+}
+```
+
+##### Herencia múltiple a nivel de interfaces
+
+```java
+public interface IPuedeSaltar{
+    public void saltar();
+}
+public interface IPuedeCorrer{
+    public void correr();
+}
+public interface IPuedeNadar{
+    public void nada();
+}
+
+public class Perro implements IPuedeSaltar, IPuedeCorrer, IPuedeNadar{
+    @Override
+    public void saltar(){ 
+        //salta
+    }
+    @Override 
+    public void correr(){
+        //corre
+    }
+    @Override
+    public void nadar(){
+        //nada
+    } 
+}
+```
