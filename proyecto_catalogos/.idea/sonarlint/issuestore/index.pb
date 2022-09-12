@@ -1,0 +1,19 @@
+
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+F
+proyecto_catalogos.iml,8\b\8b85dad4c779d929afb7f4254f7c1a9874537da1
+_
+/src/org/thear/catalogos/models/libro/Libro.java,7\3\7369d606d7a68a29f63403e317419f012eb72700
+`
+0src/org/thear/catalogos/models/libro/Comics.java,4\1\413946c36f315ccfdf7d5785b7eadcc12f69a464
+P
+ src/org/thear/catalogos/App.java,8\a\8a684318f8d2e4b9bf0a9211e16be5226a84ff2f
+k
+;src/org/thear/catalogos/models/electronica/Electronico.java,1\8\1806657939c9c1866097a9452c2fe462257123c4
+f
+6src/org/thear/catalogos/models/electronica/IPhone.java,6\c\6c0529f5eaffe81ff9e2170410f13c08700ce9f4
+f
+6src/org/thear/catalogos/models/producto/IProducto.java,7\f\7fbd922561a2cf84d5d6acee548b6aa924ad802c
+e
+5src/org/thear/catalogos/models/producto/Producto.java,c\1\c12f8870a5c5e5c78bffac6c7e0cb98b5946f210
