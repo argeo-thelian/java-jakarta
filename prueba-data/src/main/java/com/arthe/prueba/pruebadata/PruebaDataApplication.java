@@ -23,6 +23,7 @@ public class PruebaDataApplication {
 	}
 
 	public List<Boolean> dato(){
+		String hola = "si";
 		List<Boolean> datos = Arrays.asList(true, false); 
 		return datos;
 	}
