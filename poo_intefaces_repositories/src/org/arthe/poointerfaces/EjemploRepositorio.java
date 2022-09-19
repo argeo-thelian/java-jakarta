@@ -9,7 +9,7 @@ import java.util.List;
 public class EjemploRepositorio {
     public static void main(String[] args) {
 
-        CrudRepositorio repo = new ClienteListRepositorio();
+        OrdenablePaginableCrudRepositorio repo = new ClienteListRepositorio();
         repo.crear(new Cliente("Jano", "Perez"));
         repo.crear(new Cliente("Juno", "Piros"));
         repo.crear(new Cliente("Juan", "Roens"));
@@ -23,11 +23,11 @@ public class EjemploRepositorio {
 
         System.out.println("\n\n");
 
-        List<Cliente> paginable = ((PaginableRepositorio)repo).listar(1, 3);
+        List<Cliente> paginable = repo.listar(1, 3);
         paginable.forEach(System.out::println);
 
         System.out.println("\n\n");
-        List<Cliente> ordenable = ((OrdenableRepositorio)repo).listar("nombre",Direccion.ASC);
+        List<Cliente> ordenable = repo.listar("nombre",Direccion.ASC);
         ordenable.forEach(System.out::println);
 
         System.out.println("\n\n");
@@ -39,7 +39,8 @@ public class EjemploRepositorio {
         System.out.println("\n\n");
         repo.eliminar(1);
         repo.listar().forEach(System.out::println);
-
+        System.out.println("=== Total ===");
+        System.out.println("Total registros: " + repo.total());
     }
 
 }

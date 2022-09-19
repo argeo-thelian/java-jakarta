@@ -1,12 +1,12 @@
 package org.arthe.poointerfaces.repositorio;
 
 import org.arthe.poointerfaces.modelo.Cliente;
+import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class ClienteListRepositorio implements CrudRepositorio,
-        OrdenableRepositorio, PaginableRepositorio {
+public class ClienteListRepositorio implements  OrdenablePaginableCrudRepositorio{
     private List<Cliente> dataSource;
 
     public ClienteListRepositorio(){
@@ -34,7 +34,7 @@ public class ClienteListRepositorio implements CrudRepositorio,
         return listOrdenada;
     }
 
-    private int getResultado(String campo, Cliente a, Cliente b) {
+    public static int getResultado(@NotNull String campo, Cliente a, Cliente b) {
         int resultado = 0;
         switch (campo){
             case "id":
@@ -84,5 +84,10 @@ public class ClienteListRepositorio implements CrudRepositorio,
     @Override
     public void eliminar(Integer id) {
         this.dataSource.remove(this.porId(id));
+    }
+
+    @Override
+    public int total() {
+        return this.dataSource.size();
     }
 }
