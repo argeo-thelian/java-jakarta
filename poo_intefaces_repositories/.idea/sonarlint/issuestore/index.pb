@@ -1,6 +1,4 @@
 
-l
-<src/org/arthe/poointerfaces/repositorio/CrudRepositorio.java,7\6\765a2aa6eb2860af40a5f48b29c6c341579823de
 f
 6src/org/arthe/poointerfaces/repositorio/Direccion.java,b\7\b73087bfbbf8b8c75d146b6b8ad9595891d1b21d
 ~
@@ -15,9 +13,3 @@ c
 3src/org/arthe/poointerfaces/EjemploRepositorio.java,7\5\75e919e7e1aa5fac2da6c0824aaeaca8bbd04825
 p
 @src/org/arthe/poointerfaces/repositorio/ContableRepositorio.java,7\2\728f60b47f56aeec5c68d31433567ffba74eb53e
-f
-6src/org/arthe/poointerfaces/modelo/ClientePremium.java,9\b\9b7a5082227652b2a2c7647af577446857a79304
-_
-/src/org/arthe/poointerfaces/modelo/Cliente.java,7\8\78bfab470b4a0195266e01ad357987f546c841cc
-\
-,src/org/arthe/generics/EjemploGenericos.java,5\f\5f2f7700a79562bd8eb1ff8cbd4557add28fc8b8
