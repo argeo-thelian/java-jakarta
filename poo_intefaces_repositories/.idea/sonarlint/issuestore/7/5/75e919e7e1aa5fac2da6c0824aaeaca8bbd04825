@@ -1,15 +1,0 @@
-
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ĞÒ»
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ö±»‹
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ˆšÑÖüÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ªø½şûÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ˆšÑÖüÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(‹Ç¡­
-S	java:S106!"9Replace this use of System.out or System.err by a logger.(ˆšÑÖüÿÿÿÿ
-N	java:S106%"9Replace this use of System.out or System.err by a logger.(ö±»‹
-S	java:S106'"9Replace this use of System.out or System.err by a logger.(ˆšÑÖüÿÿÿÿ
-N	java:S106)"9Replace this use of System.out or System.err by a logger.(ö€²
-U	java:S106*"9Replace this use of System.out or System.err by a logger.(¨¬óÒ8²¡µ´0
-U	java:S106+"9Replace this use of System.out or System.err by a logger.(©®ªî8²¡µ´0
-P
-java:S1191"5Use classes from the Java API instead of Sun classes.(ğĞü‹úÿÿÿÿ
