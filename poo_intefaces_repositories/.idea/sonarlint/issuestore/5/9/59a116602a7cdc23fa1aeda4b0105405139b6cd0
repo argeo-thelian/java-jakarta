@@ -1,0 +1,9 @@
+
+N	java:S106)"9Replace this use of System.out or System.err by a logger.(¨¬óÒ
+N	java:S106*"9Replace this use of System.out or System.err by a logger.(©®ªî
+`
+java:S1128"CRemove this unused import 'org.arthe.poointerfaces.modelo.Cliente'.(Œ„ƒã8§Ðç‰¶0
+z
+java:S1128"]Remove this unused import 'org.arthe.poointerfaces.repositorio.lista.ClienteListRepositorio'.(‚ïõË8âÑç‰¶0
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8ãÑç‰¶0
