@@ -1,0 +1,12 @@
+
+O
+java:S1854":Remove this useless assignment to local variable "andres".(„É‘-
+Q	java:S125"<This block of commented-out lines of code should be removed.(€‰Œ˘
+@
+java:S1481"+Remove this unused "andres" local variable.(„É‘-
+S	java:S106"9Replace this use of System.out or System.err by a logger.(•ÅÓÜ¸ˇˇˇˇ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ùä·„
+S	java:S106""9Replace this use of System.out or System.err by a logger.(∑ª€⁄˘ˇˇˇˇ
+N	java:S106)"9Replace this use of System.out or System.err by a logger.(Ø£ç
+Z	java:S106?"9Replace this use of System.out or System.err by a logger.(Úÿ∫™˚ˇˇˇˇ8 ¨®ﬂµ0
+U	java:S106G"9Replace this use of System.out or System.err by a logger.(ˆ±ªã8 ¨®ﬂµ0
