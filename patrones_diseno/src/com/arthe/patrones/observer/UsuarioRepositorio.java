@@ -10,4 +10,5 @@ public class UsuarioRepositorio extends Observable{
         repositorio.add(usuario);
         notifyObservers(usuario);
     }
+
 }
