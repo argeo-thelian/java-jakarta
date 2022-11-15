@@ -6,9 +6,9 @@ import java.util.List;
 public class UsuarioRepositorio extends Observable{
 
     private List<String> repositorio = new ArrayList<>();
-    public void crearUsuario(String usuario){
+    public void crearUsuario(String usuario) {
         repositorio.add(usuario);
         notifyObservers(usuario);
     }
-
+    //Esta es comen
 }
