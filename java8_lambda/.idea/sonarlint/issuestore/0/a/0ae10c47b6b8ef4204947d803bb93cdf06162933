@@ -1,0 +1,12 @@
+
+V
+java:S1612"@Replace this lambda with method reference 'System.out::println'.(óÆ³ü
+N	java:S106"9Replace this use of System.out or System.err by a logger.(óÆ³ü
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ê¢†îþÿÿÿÿ
+r
+java:S4276"\Refactor this code to use the more specialised Functional Interface 'ObjIntConsumer<String>'(ˆ…ºç
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ˆ…ºç
+N	java:S106"9Replace this use of System.out or System.err by a logger.(êàß¬
+V	java:S125'"<This block of commented-out lines of code should be removed.(ù¾»úÿÿÿÿÿ
+i
+java:S1602,"SRemove useless curly braces around statement and then remove useless return keyword(øŽÃ“

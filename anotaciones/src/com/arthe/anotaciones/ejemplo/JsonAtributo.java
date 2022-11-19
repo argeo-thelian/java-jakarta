@@ -1,2 +1,11 @@
-package com.arthe.anotaciones.ejemplo;public @interface JsonAtributo {
+package com.arthe.anotaciones.ejemplo;
+
+import java.lang.annotation.*;
+
+@Documented
+@Target(ElementType.FIELD)
+@Retention(RetentionPolicy.RUNTIME)
+public @interface JsonAtributo {
+    String nombre() default "";
+    boolean capitalizar() default false;
 }

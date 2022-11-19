@@ -1,2 +1,17 @@
-package org.arthe.hilos.ejemplosync.runnable;public class Consumidor {
+package org.arthe.hilos.ejemplosync.runnable;
+
+import org.arthe.hilos.ejemplosync.Panaderia;
+
+public class Consumidor implements Runnable{
+
+    private Panaderia panaderia;
+    public Consumidor(Panaderia panaderia){
+        this.panaderia = panaderia;
+    }
+    @Override
+    public void run() {
+        for (int i = 0; i < 10; i ++){
+            panaderia.cosumir();
+        }
+    }
 }

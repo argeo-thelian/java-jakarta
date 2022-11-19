@@ -1,37 +1,40 @@
 package com.arthe.api.stream.ejemplos;
 
+import com.arthe.api.stream.ejemplos.models.Usuario;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Locale;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class EjemploStream {
+public class EjemploStreamMap {
     public static void main(String[] args) {
-        Stream<String> nombres = Stream.of("Pato", "Paco", "Pepe");
-        nombres.forEach(System.out::println);
+        Stream<String> nombres = Stream
+                .of("Pato", "Paco", "Pepe")
+//                .peek(System.out::println)
+                .map(String::toUpperCase)
+//                .peek(System.out::println)
+                .map(String::toLowerCase);
+        List<String> lista = nombres.collect(Collectors.toList());
+        lista.forEach(System.out::println);
+        //nombres.forEach(System.out::println);
+        System.out.println("¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡");
+        Stream.of("Pato", "Paco", "Pepe")
+                .map(String::toUpperCase)
+                .forEach(System.out::println);
 
-        String[] arr = {"Pato", "Paco", "Pepe"};
-        Stream<String> nombres2 = Arrays.stream(arr);
-        nombres2.forEach(System.out::println);
-
-        Stream<String> nombres3 = Stream.<String>builder()
-                .add("Pato")
-                .add("Paco")
-                .add("Pepa")
-                .add("Pepe")
-                .build();
-        nombres3.forEach(System.out::println);
-
-        List<String> lista = new ArrayList<>();
-        lista.add("Pato");
-        lista.add("Paco");
-        lista.add("Pepe");
-        lista.add("Pepa");
-
-        Stream<String> nombres4 = lista.stream();
-        nombres4.forEach(System.out::println);
-
-        lista.stream().forEach(System.out::println);
-
+        System.out.println("¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡");
+        Stream<Usuario> nombres1 = Stream
+                .of("Pancho Guzman","Pazo Gonzalez","Paco Gutierrez")
+                .map(nombre -> new Usuario(nombre.split(" ")[0], nombre.split(" ")[1]))
+                .map(usuario -> {
+                    String nombre = usuario.getNombre().toLowerCase();
+                    usuario.setNombre(nombre);
+                    return usuario;
+                });
+        List<Usuario> lisUser = nombres1.collect(Collectors.toList());
+        lisUser.forEach(System.out::println);
     }
 }

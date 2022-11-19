@@ -1,0 +1,21 @@
+
+v
+java:S4276	"[Refactor this code to use the more specialised Functional Interface 'UnaryOperator<String>'(ñÂÚæıÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Æ¦”‰
+v
+java:S4276"[Refactor this code to use the more specialised Functional Interface 'UnaryOperator<String>'(ÍµÏûÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(•Îœ
+]	java:S125"<This block of commented-out lines of code should be removed.(ÍµÏûÿÿÿÿ8õÊİ¤Å0
+w
+java:S4276"\Refactor this code to use the more specialised Functional Interface 'BinaryOperator<String>'(ÿ€Œ¥øÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Æ¶·ä
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ßÑ­¢
+]	java:S125"<This block of commented-out lines of code should be removed.(üÂ´’ûÿÿÿÿ8Öšà¤Å0
+y
+java:S4276"\Refactor this code to use the more specialised Functional Interface 'BinaryOperator<String>'(«¡§§8÷Êá¤Å0
+T	java:S106"9Replace this use of System.out or System.err by a logger.(ªÊÃ8³ÍŞ¤Å0
+O
+java:S1128"-Remove this unused import 'java.util.Locale'.(åğ×±ûÿÿÿÿ8÷Êá¤Å0
+d
+java:S1192
+"GDefine a constant instead of duplicating this literal "andres" 5 times.(ÅÅş¬8›’Õ¤Å0

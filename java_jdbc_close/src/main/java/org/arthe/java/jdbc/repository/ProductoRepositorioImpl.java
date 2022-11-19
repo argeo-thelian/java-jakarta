@@ -65,7 +65,8 @@ public class ProductoRepositorioImpl implements Repositorio<Producto>{
         } else {
             sql = "INSERT INTO productos(nombre, precio, categoria_id, fecha_registro ) VALUES(?,?,?,?)";
         }
-        try (PreparedStatement stmt = getConnection().prepareStatement(sql)){
+        try (Connection conn = getConnection();
+            PreparedStatement stmt = conn.prepareStatement(sql)){
             stmt.setString(1, producto.getNombre());
             stmt.setInt(2, producto.getPrecio());
             stmt.setLong(3,producto.getCategoria().getId());
@@ -83,7 +84,8 @@ public class ProductoRepositorioImpl implements Repositorio<Producto>{
 
     @Override
     public void delete(Long id) {
-        try (PreparedStatement stmt = getConnection().prepareStatement("DELETE FROM productos WHERE id = ?")){
+        try (Connection conn = getConnection();
+            PreparedStatement stmt = conn.prepareStatement("DELETE FROM productos WHERE id = ?")){
             stmt.setLong(1,id);
             stmt.executeUpdate();
         } catch (SQLException e) {

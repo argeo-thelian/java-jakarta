@@ -11,24 +11,19 @@ import java.sql.SQLException;
 public class EjemploJDBCDelete {
     public static void main(String[] args) {
 
+        Repositorio<Producto> repositorio = new ProductoRepositorioImpl();
+        System.out.println("============ Listar ============");
+        repositorio.findAll().forEach(System.out::println);
 
-        try (Connection conn = ConexionBaseDatos.getInstance()) {
-            Repositorio<Producto> repositorio = new ProductoRepositorioImpl();
-            System.out.println("============ Listar ============");
-            repositorio.findAll().forEach(System.out::println);
+        System.out.println("============ GetId ============");
+        System.out.println(repositorio.getId(1L));
 
-            System.out.println("============ GetId ============");
-            System.out.println(repositorio.getId(1L));
+        System.out.println("============ Delete producto ============");
+        repositorio.delete(7L);
+        System.out.println("Producto eliminado con éxito");
 
-            System.out.println("============ Delete producto ============");
-            repositorio.delete(4L);
-            System.out.println("Producto eliminado con éxito");
+        System.out.println("============ Listar ============");
+        repositorio.findAll().forEach(System.out::println);
 
-            System.out.println("============ Listar ============");
-            repositorio.findAll().forEach(System.out::println);
-
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
     }
 }

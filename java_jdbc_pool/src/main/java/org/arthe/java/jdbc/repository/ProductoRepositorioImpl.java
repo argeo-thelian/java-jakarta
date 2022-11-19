@@ -9,8 +9,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ProductoRepositorioImpl implements Repositorio<Producto>{
+
     private Connection getConnection() throws SQLException {
-        return ConexionBaseDatos.getInstance();
+        return ConexionBaseDatos.getConnection();
     }
 
     @Override

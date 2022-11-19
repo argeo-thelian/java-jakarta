@@ -12,31 +12,26 @@ import java.util.Date;
 public class EjemploJDBC {
     public static void main(String[] args) {
 
+        Repositorio<Producto> repositorio = new ProductoRepositorioImpl();
+        System.out.println("============ Listar ============");
+        repositorio.findAll().forEach(System.out::println);
 
-        try (Connection conn = ConexionBaseDatos.getInstance()) {
-            Repositorio<Producto> repositorio = new ProductoRepositorioImpl();
-            System.out.println("============ Listar ============");
-            repositorio.findAll().forEach(System.out::println);
+        System.out.println("============ GetId ============");
+        System.out.println(repositorio.getId(1L));
 
-            System.out.println("============ GetId ============");
-            System.out.println(repositorio.getId(1L));
+        System.out.println("============ Insertar nuevo producto ============");
+        Producto producto = new Producto();
+        producto.setNombre("Teclado Black mecánico");
+        producto.setPrecio(450);
+        producto.setFechaRegisto(new Date());
+        Categoria categoria = new Categoria();
+        categoria.setId(3L);
+        producto.setCategoria(categoria);
+        repositorio.save(producto);
+        System.out.println("Producto guardado con éxito");
 
-            System.out.println("============ Insertar nuevo producto ============");
-            Producto producto = new Producto();
-            producto.setNombre("Teclado Red Dragron mecánico");
-            producto.setPrecio(450);
-            producto.setFechaRegisto(new Date());
-            Categoria categoria = new Categoria();
-            categoria.setId(3L);
-            producto.setCategoria(categoria);
-            repositorio.save(producto);
-            System.out.println("Producto guardado con éxito");
+        System.out.println("============ Listar ============");
+        repositorio.findAll().forEach(System.out::println);
 
-            System.out.println("============ Listar ============");
-            repositorio.findAll().forEach(System.out::println);
-
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
     }
 }

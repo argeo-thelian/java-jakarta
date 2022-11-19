@@ -12,32 +12,26 @@ import java.util.Date;
 
 public class EjemploJDBCUpdate {
     public static void main(String[] args) {
+        Repositorio<Producto> repositorio = new ProductoRepositorioImpl();
+        System.out.println("============ Listar ============");
+        repositorio.findAll().forEach(System.out::println);
 
+        System.out.println("============ GetId ============");
+        System.out.println(repositorio.getId(1L));
 
-        try (Connection conn = ConexionBaseDatos.getInstance()) {
-            Repositorio<Producto> repositorio = new ProductoRepositorioImpl();
-            System.out.println("============ Listar ============");
-            repositorio.findAll().forEach(System.out::println);
+        System.out.println("============ Update producto ============");
+        Producto producto = new Producto();
+        producto.setId(7L);
+        producto.setNombre("Teclado dether mecánico");
+        producto.setPrecio(340);
+        Categoria categoria = new Categoria();
+        categoria.setId(3L);
+        producto.setCategoria(categoria);
+        repositorio.save(producto);
+        System.out.println("Producto actualizado con éxito");
 
-            System.out.println("============ GetId ============");
-            System.out.println(repositorio.getId(1L));
+        System.out.println("============ Listar ============");
+        repositorio.findAll().forEach(System.out::println);
 
-            System.out.println("============ Update producto ============");
-            Producto producto = new Producto();
-            producto.setId(6L);
-            producto.setNombre("Teclado Logitec mecánico");
-            producto.setPrecio(600);
-            Categoria categoria = new Categoria();
-            categoria.setId(3L);
-            producto.setCategoria(categoria);
-            repositorio.save(producto);
-            System.out.println("Producto actualizado con éxito");
-
-            System.out.println("============ Listar ============");
-            repositorio.findAll().forEach(System.out::println);
-
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
     }
 }

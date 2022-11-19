@@ -14,10 +14,9 @@ public class ProductoRepositorioImpl implements Repositorio<Producto>{
     }
 
     @Override
-    public List<Producto> findAll() {
+    public List<Producto> findAll() throws SQLException {
         List<Producto> productos = new ArrayList<>();
-        try (Connection conn  = getConnection();
-            Statement stmt = conn.createStatement();
+        try (Statement stmt = getConnection().createStatement();
             ResultSet rs = stmt.executeQuery("SELECT p.*, c.nombre AS categoria " +
                                                  "FROM productos AS p " +
                                                  "INNER JOIN categorias AS c " +
@@ -28,8 +27,6 @@ public class ProductoRepositorioImpl implements Repositorio<Producto>{
                 Producto p = crearProducto(rs);
                 productos.add(p);
             }
-        } catch (SQLException e) {
-            e.printStackTrace();
         }
         return productos;
     }
@@ -37,10 +34,9 @@ public class ProductoRepositorioImpl implements Repositorio<Producto>{
 
 
     @Override
-    public Producto getId(Long id) {
+    public Producto getId(Long id) throws SQLException {
         Producto producto = null;
-        try (Connection conn  = getConnection();
-            PreparedStatement stmt = conn
+        try (PreparedStatement stmt = getConnection()
                 .prepareStatement("SELECT p.*, c.nombre AS categoria " +
                                       "FROM productos AS p " +
                                       "INNER JOIN categorias AS c " +
@@ -52,45 +48,38 @@ public class ProductoRepositorioImpl implements Repositorio<Producto>{
                     producto = crearProducto(rs);
                 }
             }
-        } catch (SQLException e) {
-            e.printStackTrace();
         }
         return producto;
     }
 
     @Override
-    public void save(Producto producto) {
+    public void save(Producto producto) throws SQLException {
         String sql;
         if (producto.getId() != null && producto.getId() > 0) {
-            sql = "UPDATE productos SET nombre = ?, precio = ?, categoria_id = ? WHERE id = ?";
+            sql = "UPDATE productos SET nombre = ?, precio = ?, categoria_id = ?, sku = ?  WHERE id = ?";
         } else {
-            sql = "INSERT INTO productos(nombre, precio, categoria_id, fecha_registro ) VALUES(?,?,?,?)";
+            sql = "INSERT INTO productos(nombre, precio, categoria_id, sku, fecha_registro ) VALUES(?,?,?,?,?)";
         }
-        try (Connection conn  = getConnection();
-            PreparedStatement stmt = conn.prepareStatement(sql)){
+        try (PreparedStatement stmt = getConnection().prepareStatement(sql)){
             stmt.setString(1, producto.getNombre());
             stmt.setInt(2, producto.getPrecio());
             stmt.setLong(3,producto.getCategoria().getId());
-
+            stmt.setString(4,producto.getSku());
             if (producto.getId() != null && producto.getId() > 0) {
-                stmt.setLong(4, producto.getId());
+                stmt.setLong(5, producto.getId());
             } else {
-                stmt.setDate(4, new Date(producto.getFechaRegisto().getTime()));
+                stmt.setDate(5, new Date(producto.getFechaRegisto().getTime()));
             }
             stmt.executeUpdate();
-        } catch (SQLException e) {
-            e.printStackTrace();
         }
     }
 
     @Override
-    public void delete(Long id) {
+    public void delete(Long id) throws SQLException {
         try (Connection conn  = getConnection();
             PreparedStatement stmt = conn.prepareStatement("DELETE FROM productos WHERE id = ?")){
             stmt.setLong(1,id);
             stmt.executeUpdate();
-        } catch (SQLException e) {
-            e.printStackTrace();
         }
     }
 
@@ -100,6 +89,7 @@ public class ProductoRepositorioImpl implements Repositorio<Producto>{
         p.setNombre(rs.getString("nombre"));
         p.setPrecio(rs.getInt("precio"));
         p.setFechaRegisto(rs.getDate("fecha_registro"));
+        p.setSku(rs.getString("sku"));
         Categoria categoria = new Categoria();
         categoria.setId(rs.getLong("categoria_id"));
         categoria.setNombre(rs.getString("categoria"));

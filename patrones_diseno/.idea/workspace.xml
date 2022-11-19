@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="822a7879-ec4b-4fe6-a0d3-7e3b12121685" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../java_jdbc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_jdbc/src/main/java/org/arthe/java/jdbc/EjemploJDBC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../anotaciones/src/com/arthe/anotaciones/ejemplo/EjemploAnotacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../anotaciones/src/com/arthe/anotaciones/ejemplo/EjemploAnotacion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../anotaciones/src/com/arthe/anotaciones/ejemplo/Init.java" beforeDir="false" afterPath="$PROJECT_DIR$/../anotaciones/src/com/arthe/anotaciones/ejemplo/Init.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../anotaciones/src/com/arthe/anotaciones/ejemplo/JsonAtributo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../anotaciones/src/com/arthe/anotaciones/ejemplo/JsonAtributo.java" afterDir="false" />
@@ -46,6 +48,7 @@
       <change beforePath="$PROJECT_DIR$/../java8_lambda/src/com/thear/java8/lambda/aritmetica/Aritmetica.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java8_lambda/src/com/thear/java8/lambda/aritmetica/Aritmetica.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java8_lambda/src/com/thear/java8/lambda/aritmetica/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java8_lambda/src/com/thear/java8/lambda/aritmetica/Calculadora.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java8_lambda/src/com/thear/java8/lambda/models/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java8_lambda/src/com/thear/java8/lambda/models/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../poo_excepciones/src/com/arthe/pooexcepciones/ejemplo/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/../poo_excepciones/src/com/arthe/pooexcepciones/ejemplo/Calculadora.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../poo_excepciones/src/com/arthe/pooexcepciones/ejemplo/DivisionPorZeroException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../poo_excepciones/src/com/arthe/pooexcepciones/ejemplo/DivisionPorZeroException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../poo_excepciones/src/com/arthe/pooexcepciones/ejemplo/EjemploExcepciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/../poo_excepciones/src/com/arthe/pooexcepciones/ejemplo/EjemploExcepciones.java" afterDir="false" />
@@ -228,7 +231,7 @@
       <option name="presentableId" value="Default" />
       <updated>1667952138768</updated>
       <workItem from="1667952138985" duration="8879000" />
-      <workItem from="1668111853828" duration="19363000" />
+      <workItem from="1668111853828" duration="22593000" />
     </task>
     <servers />
   </component>

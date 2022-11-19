@@ -4,6 +4,7 @@ import org.arthe.poointerfaces.modelo.Cliente;
 import org.arthe.poointerfaces.modelo.Producto;
 import org.arthe.poointerfaces.repositorio.AbstractaListRepositorio;
 import org.arthe.poointerfaces.repositorio.Direccion;
+import org.arthe.poointerfaces.repositorio.exceptions.LecturaAccesoDatoException;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
@@ -11,7 +12,7 @@ import java.util.List;
 
 public class ProductoListRepositorio extends AbstractaListRepositorio<Producto> {
     @Override
-    public void editar(Producto producto) {
+    public void editar(Producto producto) throws LecturaAccesoDatoException {
         Producto p = this.porId(producto.getId());
         p.setDescripcion(producto.getDescripcion());
         p.setPrecio(producto.getPrecio());
