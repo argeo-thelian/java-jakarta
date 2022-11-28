@@ -40,7 +40,7 @@ public class EjemploJDBCTrx {
 
                 System.out.println("============ Update producto ============");
                 producto = new Producto();
-                producto.setId(7L);
+                producto.setId(2L);
                 producto.setNombre("Teclado Blue mecánico");
                 producto.setPrecio(1300);
                 producto.setSku("abcd12346");

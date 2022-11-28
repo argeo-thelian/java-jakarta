@@ -2,25 +2,37 @@ package org.arthe.java.jdbc.repository;
 
 import org.arthe.java.jdbc.models.Categoria;
 import org.arthe.java.jdbc.models.Producto;
-import org.arthe.java.jdbc.util.ConexionBaseDatos;
 
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
 public class ProductoRepositorioImpl implements Repositorio<Producto>{
-    private Connection getConnection() throws SQLException {
-        return ConexionBaseDatos.getInstance();
+
+    private Connection conn;
+
+    public ProductoRepositorioImpl(Connection conn) {
+        this.conn = conn;
+    }
+
+    public ProductoRepositorioImpl() {
+    }
+
+
+    public void setConn(Connection conn) {
+        this.conn = conn;
     }
 
     @Override
     public List<Producto> findAll() throws SQLException {
         List<Producto> productos = new ArrayList<>();
-        try (Statement stmt = getConnection().createStatement();
+        try (Statement stmt = conn.createStatement();
             ResultSet rs = stmt.executeQuery("SELECT p.*, c.nombre AS categoria " +
                                                  "FROM productos AS p " +
                                                  "INNER JOIN categorias AS c " +
-                                                 "ON (p.categoria_id = c.id)")) {
+                                                 "ON (p.categoria_id = c.id)")
+            )
+        {
             while (rs.next()){
                 Producto p = crearProducto(rs);
                 productos.add(p);
@@ -34,12 +46,12 @@ public class ProductoRepositorioImpl implements Repositorio<Producto>{
     @Override
     public Producto getId(Long id) throws SQLException {
         Producto producto = null;
-        try (PreparedStatement stmt = getConnection()
+        try (PreparedStatement stmt = conn
                 .prepareStatement("SELECT p.*, c.nombre AS categoria " +
                                       "FROM productos AS p " +
                                       "INNER JOIN categorias AS c " +
                                       "ON (p.categoria_id = c.id) " +
-                                      "WHERE p.id = ?")) {
+                                      "WHERE p.id = ?")){
             stmt.setLong(1,id);
             try (ResultSet rs = stmt.executeQuery()) {
                 if (rs.next()) {
@@ -51,31 +63,41 @@ public class ProductoRepositorioImpl implements Repositorio<Producto>{
     }
 
     @Override
-    public void save(Producto producto) throws SQLException {
+    public Producto save(Producto producto) throws SQLException {
         String sql;
         if (producto.getId() != null && producto.getId() > 0) {
-            sql = "UPDATE productos SET nombre = ?, precio = ?, categoria_id = ?, sku = ?  WHERE id = ?";
+            sql = "UPDATE productos SET nombre = ?, precio = ?, categoria_id = ?, sku = ? WHERE id = ?";
         } else {
             sql = "INSERT INTO productos(nombre, precio, categoria_id, sku, fecha_registro ) VALUES(?,?,?,?,?)";
         }
-        try (PreparedStatement stmt = getConnection().prepareStatement(sql)){
+        try (PreparedStatement stmt = conn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS)){
             stmt.setString(1, producto.getNombre());
             stmt.setInt(2, producto.getPrecio());
             stmt.setLong(3,producto.getCategoria().getId());
-            stmt.setString(4,producto.getSku());
+            stmt.setString(4, producto.getSku());
+
             if (producto.getId() != null && producto.getId() > 0) {
                 stmt.setLong(5, producto.getId());
             } else {
                 stmt.setDate(5, new Date(producto.getFechaRegisto().getTime()));
             }
             stmt.executeUpdate();
+
+            if (producto.getId() == null){
+                try (ResultSet rs = stmt.getGeneratedKeys()){
+                    if (rs.next()){
+                        producto.setId(rs.getLong(1));
+                    }
+
+                }
+            }
+            return producto;
         }
     }
 
     @Override
     public void delete(Long id) throws SQLException {
-        try (Connection conn  = getConnection();
-            PreparedStatement stmt = conn.prepareStatement("DELETE FROM productos WHERE id = ?")){
+        try (PreparedStatement stmt = conn.prepareStatement("DELETE FROM productos WHERE id = ?")){
             stmt.setLong(1,id);
             stmt.executeUpdate();
         }
