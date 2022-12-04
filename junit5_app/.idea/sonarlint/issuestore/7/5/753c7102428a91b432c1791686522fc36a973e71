@@ -1,0 +1,7 @@
+
+4
+java:S5785"Use assertEquals instead.(šïÕŸûÿÿÿÿ
+z
+java:S1607"^Either add an explanation about why this test is skipped or remove the "@Disabled" annotation.(—­ç$8†¬ËŠÌ0
+x
+java:S5778?"bRefactor the code of the lambda to have only one invocation possibly throwing a runtime exception.(…ùüþ
