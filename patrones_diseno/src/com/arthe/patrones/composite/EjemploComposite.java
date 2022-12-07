@@ -19,6 +19,7 @@ public class EjemploComposite {
         doc.addComponente(new Archivo("logo.jpeg "));
 
         System.out.println(doc.mostrar(0));
+        System.out.println(stream.mostrar(0));
 
 
 

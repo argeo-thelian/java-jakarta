@@ -1,1 +1,11 @@
-com\arthe\apiservlet\webapp\headers\CabecerasHttpRequest.class
+com\arthe\apiservlet\webapp\headers\controllers\BuscarProductoServlet.class
+com\arthe\apiservlet\webapp\headers\services\ProductoSrevice.class
+com\arthe\apiservlet\webapp\headers\controllers\ProductoXlsServlet.class
+com\arthe\apiservlet\webapp\headers\controllers\RedirigirServlet.class
+com\arthe\apiservlet\webapp\headers\controllers\CabecerasHttpRequest.class
+com\arthe\apiservlet\webapp\headers\controllers\ProductoJsonServlet.class
+com\arthe\apiservlet\webapp\headers\controllers\LoginServlet.class
+com\arthe\apiservlet\webapp\headers\models\Producto.class
+com\arthe\apiservlet\webapp\headers\controllers\HoraActualizaServlet.class
+com\arthe\apiservlet\webapp\headers\controllers\DespacharServlet.class
+com\arthe\apiservlet\webapp\headers\services\ProductoServiceImpl.class

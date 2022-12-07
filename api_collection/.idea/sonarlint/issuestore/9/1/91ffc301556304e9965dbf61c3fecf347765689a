@@ -1,20 +1,0 @@
-
-S	java:S106"9Replace this use of System.out or System.err by a logger.(æÒù–ùÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(¬É”Â
-N	java:S106"9Replace this use of System.out or System.err by a logger.(Ùê±
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ï Òû
-P	java:S125"<This block of commented-out lines of code should be removed.(ÏÔ	
-S	java:S106"9Replace this use of System.out or System.err by a logger.(Ä©‚šÿÿÿÿÿ
-N	java:S106!"9Replace this use of System.out or System.err by a logger.(ğº»Ş
-S	java:S106%"9Replace this use of System.out or System.err by a logger.(½›ŠĞûÿÿÿÿ
-J
-java:S2864("4Iterate over the "entrySet" instead of the "keySet".(‹Á˜æ
-N	java:S106*"9Replace this use of System.out or System.err by a logger.(ÍØ¡—
-B
-java:S1602-",Remove useless curly braces around statement(½â …
-N	java:S106."9Replace this use of System.out or System.err by a logger.(é€ ª
-S	java:S1061"9Replace this use of System.out or System.err by a logger.(ô©©ûÿÿÿÿ
-S	java:S1062"9Replace this use of System.out or System.err by a logger.(Ÿíşÿÿÿÿ
-Z	java:S1065"9Replace this use of System.out or System.err by a logger.(æÒù–ùÿÿÿÿ8†ø”É¾0
-]
-java:S1192"GDefine a constant instead of duplicating this literal "nombre" 4 times.(„ÏÖÂ

@@ -8,7 +8,6 @@ public class Archivo extends Componente{
 
     @Override
     public String mostrar(int nivel) {
-
         return Utils.repeat("\t",nivel) + getNombre();
     }
 

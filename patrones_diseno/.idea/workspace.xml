@@ -5,74 +5,71 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="822a7879-ec4b-4fe6-a0d3-7e3b12121685" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../java_jdbc/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc/src/main/java/org/arthe/java/jdbc/EjemploJDBC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../anotaciones/src/com/arthe/anotaciones/ejemplo/EjemploAnotacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../anotaciones/src/com/arthe/anotaciones/ejemplo/EjemploAnotacion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../anotaciones/src/com/arthe/anotaciones/ejemplo/Init.java" beforeDir="false" afterPath="$PROJECT_DIR$/../anotaciones/src/com/arthe/anotaciones/ejemplo/Init.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../anotaciones/src/com/arthe/anotaciones/ejemplo/JsonAtributo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../anotaciones/src/com/arthe/anotaciones/ejemplo/JsonAtributo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../anotaciones/src/com/arthe/anotaciones/ejemplo/models/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../anotaciones/src/com/arthe/anotaciones/ejemplo/models/Producto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../anotaciones/src/com/arthe/anotaciones/ejemplo/procesador/JsonSerializador.java" beforeDir="false" afterPath="$PROJECT_DIR$/../anotaciones/src/com/arthe/anotaciones/ejemplo/procesador/JsonSerializador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../anotaciones/src/com/arthe/anotaciones/ejemplo/procesador/exception/JsonSerializadorException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../anotaciones/src/com/arthe/anotaciones/ejemplo/procesador/exception/JsonSerializadorException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api_collection/src/introduccion.md" beforeDir="false" afterPath="$PROJECT_DIR$/../api_collection/src/introduccion.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api_collection/src/org/arthe/ejemplos/map/EjemploHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../api_collection/src/org/arthe/ejemplos/map/EjemploHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api_collection/src/org/arthe/ejemplos/map/EjemploHashMap2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../api_collection/src/org/arthe/ejemplos/map/EjemploHashMap2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api_collection/src/org/arthe/ejemplos/map/EjemploTreeMap2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../api_collection/src/org/arthe/ejemplos/map/EjemploTreeMap2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api_collection/src/org/arthe/ejemplos/modelo/Alumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/../api_collection/src/org/arthe/ejemplos/modelo/Alumno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api_collection/src/org/arthe/ejemplos/set/EjemploHashSetAgregar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../api_collection/src/org/arthe/ejemplos/set/EjemploHashSetAgregar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api_collection/src/org/arthe/ejemplos/set/EjemploHashSetBuscarDuplicados.java" beforeDir="false" afterPath="$PROJECT_DIR$/../api_collection/src/org/arthe/ejemplos/set/EjemploHashSetBuscarDuplicados.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api_collection/src/org/arthe/ejemplos/set/EjemploHashSetBuscarDuplicados2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../api_collection/src/org/arthe/ejemplos/set/EjemploHashSetBuscarDuplicados2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api_collection/src/org/arthe/ejemplos/set/EjemploHashSetUnicidad.java" beforeDir="false" afterPath="$PROJECT_DIR$/../api_collection/src/org/arthe/ejemplos/set/EjemploHashSetUnicidad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api_collection/src/org/arthe/ejemplos/set/EjemploListComparableComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../api_collection/src/org/arthe/ejemplos/set/EjemploListComparableComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api_collection/src/org/arthe/ejemplos/set/EjemploTreeSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../api_collection/src/org/arthe/ejemplos/set/EjemploTreeSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api_collection/src/org/arthe/ejemplos/set/EjemploTreeSetComparable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../api_collection/src/org/arthe/ejemplos/set/EjemploTreeSetComparable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api_stream/src/com/arthe/api/stream/ejemplos/EjemploStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/../api_stream/src/com/arthe/api/stream/ejemplos/EjemploStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api_stream/src/com/arthe/api/stream/ejemplos/EjemploStreamFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../api_stream/src/com/arthe/api/stream/ejemplos/EjemploStreamFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api_stream/src/com/arthe/api/stream/ejemplos/EjemploStreamMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../api_stream/src/com/arthe/api/stream/ejemplos/EjemploStreamMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api_stream/src/com/arthe/api/stream/ejemplos/models/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/../api_stream/src/com/arthe/api/stream/ejemplos/models/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bolsa_supermercado/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../bolsa_supermercado/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hilos/src/org/arthe/hilos/EjemploExtenderThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hilos/src/org/arthe/hilos/EjemploExtenderThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hilos/src/org/arthe/hilos/EjemploInterfaceRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hilos/src/org/arthe/hilos/EjemploInterfaceRunnable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hilos/src/org/arthe/hilos/EjemploInterfaceRunnableJava8.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hilos/src/org/arthe/hilos/EjemploInterfaceRunnableJava8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hilos/src/org/arthe/hilos/EjemploSincronizacionThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hilos/src/org/arthe/hilos/EjemploSincronizacionThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hilos/src/org/arthe/hilos/ejemplosync/EjemploProductorConsumidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hilos/src/org/arthe/hilos/ejemplosync/EjemploProductorConsumidor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hilos/src/org/arthe/hilos/ejemplosync/Panaderia.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hilos/src/org/arthe/hilos/ejemplosync/Panaderia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hilos/src/org/arthe/hilos/ejemplosync/runnable/Consumidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hilos/src/org/arthe/hilos/ejemplosync/runnable/Consumidor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hilos/src/org/arthe/hilos/ejemplosync/runnable/Panadero.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hilos/src/org/arthe/hilos/ejemplosync/runnable/Panadero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hilos/src/org/arthe/hilos/runnable/ImprimirFrases.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hilos/src/org/arthe/hilos/runnable/ImprimirFrases.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hilos/src/org/arthe/hilos/runnable/ViajeTarea.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hilos/src/org/arthe/hilos/runnable/ViajeTarea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hilos/src/org/arthe/hilos/threads/NombreThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hilos/src/org/arthe/hilos/threads/NombreThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java8_lambda/src/com/thear/java8/lambda/EjemploConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java8_lambda/src/com/thear/java8/lambda/EjemploConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java8_lambda/src/com/thear/java8/lambda/EjemploFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java8_lambda/src/com/thear/java8/lambda/EjemploFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java8_lambda/src/com/thear/java8/lambda/EjemploInterfaceFunctional.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java8_lambda/src/com/thear/java8/lambda/EjemploInterfaceFunctional.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java8_lambda/src/com/thear/java8/lambda/EjemploPredicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java8_lambda/src/com/thear/java8/lambda/EjemploPredicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java8_lambda/src/com/thear/java8/lambda/aritmetica/Aritmetica.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java8_lambda/src/com/thear/java8/lambda/aritmetica/Aritmetica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java8_lambda/src/com/thear/java8/lambda/aritmetica/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java8_lambda/src/com/thear/java8/lambda/aritmetica/Calculadora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java8_lambda/src/com/thear/java8/lambda/models/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java8_lambda/src/com/thear/java8/lambda/models/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/webapp-headers/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/webapp-headers/src/main/java/com/arthe/apiservlet/webapp/headers/controllers/BuscarProductoServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/webapp-headers/src/main/java/com/arthe/apiservlet/webapp/headers/controllers/DespacharServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/webapp-headers/src/main/java/com/arthe/apiservlet/webapp/headers/controllers/HoraActualizaServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/webapp-headers/src/main/java/com/arthe/apiservlet/webapp/headers/controllers/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/webapp-headers/src/main/java/com/arthe/apiservlet/webapp/headers/controllers/ProductoJsonServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/webapp-headers/src/main/java/com/arthe/apiservlet/webapp/headers/controllers/ProductoXlsServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/webapp-headers/src/main/java/com/arthe/apiservlet/webapp/headers/controllers/RedirigirServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/webapp-headers/src/main/java/com/arthe/apiservlet/webapp/headers/models/Producto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/webapp-headers/src/main/java/com/arthe/apiservlet/webapp/headers/services/ProductoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/webapp-headers/src/main/java/com/arthe/apiservlet/webapp/headers/services/ProductoSrevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/webapp-headers/src/main/webapp/buscar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/webapp-headers/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/webapp-headers/src/main/webapp/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/apache-tomcat-10.0.16/logs/catalina.2022-12-05.log" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE/apache-tomcat-10.0.16/logs/catalina.2022-12-05.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/apache-tomcat-10.0.16/logs/localhost.2022-12-05.log" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE/apache-tomcat-10.0.16/logs/localhost.2022-12-05.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/apache-tomcat-10.0.16/logs/localhost_access_log.2022-12-05.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE/apache-tomcat-10.0.16/logs/localhost_access_log.2022-12-05.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/apache-tomcat-10.0.16/logs/manager.2022-12-05.log" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE/apache-tomcat-10.0.16/logs/manager.2022-12-05.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/apache-tomcat-10.0.16/webapps/webapp-headers.war" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE/apache-tomcat-10.0.16/webapps/webapp-headers.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/apache-tomcat-10.0.16/webapps/webapp-headers/META-INF/maven/com.arthe.apiservlet.webapp.headers/webapp-headers/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE/apache-tomcat-10.0.16/webapps/webapp-headers/META-INF/maven/com.arthe.apiservlet.webapp.headers/webapp-headers/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/apache-tomcat-10.0.16/webapps/webapp-headers/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/CabecerasHttpRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/webapp-headers/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE/webapp-headers/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/webapp-headers/src/main/java/com.arthe.apiservlet.webapp.headers/CabecerasHttpRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE/webapp-headers/src/main/java/com/arthe/apiservlet/webapp/headers/controllers/CabecerasHttpRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/webapp-headers/target/classes/com/arthe/apiservlet/webapp/headers/CabecerasHttpRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/webapp-headers/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE/webapp-headers/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/webapp-headers/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE/webapp-headers/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/webapp-headers/target/webapp-headers.war" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE/webapp-headers/target/webapp-headers.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/webapp-headers/target/webapp-headers/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/CabecerasHttpRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api_collection/.idea/sonarlint/issuestore/1/1/115609c9e1572032a65e1c51abdbfd06f8ecb4e8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api_collection/.idea/sonarlint/issuestore/1/5/151df441da3a620f09fae28f3e87a754d6234d62" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api_collection/.idea/sonarlint/issuestore/7/0/7080afe0137cb6d27215e181b7729cd787b6f89f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api_collection/.idea/sonarlint/issuestore/7/4/7470d020ecf3897630f96e3ec9c33d196dc851f4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api_collection/.idea/sonarlint/issuestore/9/1/91ffc301556304e9965dbf61c3fecf347765689a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api_collection/.idea/sonarlint/issuestore/d/5/d52e74b33e39dd27c789bb30dc88332590365357" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api_collection/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../api_collection/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api_stream/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../api_stream/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java8_lambda/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../java8_lambda/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java8_lambda/out/production/java8_lambda/com/thear/java8/lambda/EjemploInterfaceFunctional.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java8_lambda/out/production/java8_lambda/com/thear/java8/lambda/EjemploInterfaceFunctional.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java8_lambda/out/production/java8_lambda/com/thear/java8/lambda/aritmetica/Calculadora.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java8_lambda/out/production/java8_lambda/com/thear/java8/lambda/aritmetica/Calculadora.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/2/0222cdd3abbe741149650952860278ae7b04d062" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/3/03740d67bdfd245928d9be2ae91666771701279c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/4/04c111ac48d1d1a3bf570de432743f2c0e138e6a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/c/1cf0e26ff7ada3242c0542285f2e79327e0b09f6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/32c141bb7d02987a1267d3b0cbdf186479676cd1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/3/337073b47150b5a7279bf202735a4dd51cc7753c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/5/45611baa4dcb53e6de8ceed6eab8971c0eb42254" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/c/4cb0f95aaab25ab0c1dabe0b58221dcc00d88cfd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/a/6aa396c8158decdbc3a7ce2fb5e0d4f0dd9c31cb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/d/6d96ffe9e9b7c966b99fdb187f0c337f49d972fe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/7027ecd0357e7fc60da8070fc094c1abe4ccd7a6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/82f4012b83cd35c0296c54b405ede0da3c80840c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/4/84a810705273ab9a9d4ae9de374b98746b14b9a1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/2/a2a2e2bb42e67ada68ae64d6b1dfbdd6dbc40372" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/3/a34b375cd4a4ff2840f183af5920ebabf738b972" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c507bb09eb1eb3027e527658177af667080b1dfa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/0/d05737ef6a09c6855aea70d98ed7157392c658b2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/7/e7e8f12c1416cf3ee6a14b197696d707662d92c2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/f31a11d770b2ca854d282e06e94b011ef77eeb5a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../poo_excepciones/src/com/arthe/pooexcepciones/ejemplo/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/../poo_excepciones/src/com/arthe/pooexcepciones/ejemplo/Calculadora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../poo_excepciones/src/com/arthe/pooexcepciones/ejemplo/DivisionPorZeroException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../poo_excepciones/src/com/arthe/pooexcepciones/ejemplo/DivisionPorZeroException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../poo_excepciones/src/com/arthe/pooexcepciones/ejemplo/EjemploExcepciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/../poo_excepciones/src/com/arthe/pooexcepciones/ejemplo/EjemploExcepciones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../poo_excepciones/src/com/arthe/pooexcepciones/ejemplo/FormatoNumeroException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../poo_excepciones/src/com/arthe/pooexcepciones/ejemplo/FormatoNumeroException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../poo_intefaces_repositories/.idea/sonarlint/issuestore/5/9/59a116602a7cdc23fa1aeda4b0105405139b6cd0" beforeDir="false" afterPath="$PROJECT_DIR$/../poo_intefaces_repositories/.idea/sonarlint/issuestore/5/9/59a116602a7cdc23fa1aeda4b0105405139b6cd0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../poo_intefaces_repositories/.idea/sonarlint/issuestore/c/5/c56e02dc29915c46e0d139ffb049406314e2e88d" beforeDir="false" afterPath="$PROJECT_DIR$/../poo_intefaces_repositories/.idea/sonarlint/issuestore/c/5/c56e02dc29915c46e0d139ffb049406314e2e88d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../poo_intefaces_repositories/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../poo_intefaces_repositories/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../poo_intefaces_repositories/out/production/poo_intefaces_repositories/org/arthe/poointerfaces/EjemploRepositorio.class" beforeDir="false" afterPath="$PROJECT_DIR$/../poo_intefaces_repositories/out/production/poo_intefaces_repositories/org/arthe/poointerfaces/EjemploRepositorio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../poo_intefaces_repositories/out/production/poo_intefaces_repositories/org/arthe/poointerfaces/EjemploRepositorioProducto.class" beforeDir="false" afterPath="$PROJECT_DIR$/../poo_intefaces_repositories/out/production/poo_intefaces_repositories/org/arthe/poointerfaces/EjemploRepositorioProducto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../poo_intefaces_repositories/out/production/poo_intefaces_repositories/org/arthe/poointerfaces/repositorio/AbstractaListRepositorio.class" beforeDir="false" afterPath="$PROJECT_DIR$/../poo_intefaces_repositories/out/production/poo_intefaces_repositories/org/arthe/poointerfaces/repositorio/AbstractaListRepositorio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../poo_intefaces_repositories/out/production/poo_intefaces_repositories/org/arthe/poointerfaces/repositorio/CrudRepositorio.class" beforeDir="false" afterPath="$PROJECT_DIR$/../poo_intefaces_repositories/out/production/poo_intefaces_repositories/org/arthe/poointerfaces/repositorio/CrudRepositorio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../poo_intefaces_repositories/out/production/poo_intefaces_repositories/org/arthe/poointerfaces/repositorio/lista/ClienteListRepositorio.class" beforeDir="false" afterPath="$PROJECT_DIR$/../poo_intefaces_repositories/out/production/poo_intefaces_repositories/org/arthe/poointerfaces/repositorio/lista/ClienteListRepositorio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../poo_intefaces_repositories/out/production/poo_intefaces_repositories/org/arthe/poointerfaces/repositorio/lista/ProductoListRepositorio.class" beforeDir="false" afterPath="$PROJECT_DIR$/../poo_intefaces_repositories/out/production/poo_intefaces_repositories/org/arthe/poointerfaces/repositorio/lista/ProductoListRepositorio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../poo_intefaces_repositories/src/org/arthe/poointerfaces/EjemploRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../poo_intefaces_repositories/src/org/arthe/poointerfaces/EjemploRepositorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../poo_intefaces_repositories/src/org/arthe/poointerfaces/EjemploRepositorioProducto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../poo_intefaces_repositories/src/org/arthe/poointerfaces/EjemploRepositorioProducto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../poo_intefaces_repositories/src/org/arthe/poointerfaces/repositorio/AbstractaListRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../poo_intefaces_repositories/src/org/arthe/poointerfaces/repositorio/AbstractaListRepositorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../poo_intefaces_repositories/src/org/arthe/poointerfaces/repositorio/CrudRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../poo_intefaces_repositories/src/org/arthe/poointerfaces/repositorio/CrudRepositorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../poo_intefaces_repositories/src/org/arthe/poointerfaces/repositorio/exceptions/AccesoDatoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../poo_intefaces_repositories/src/org/arthe/poointerfaces/repositorio/exceptions/AccesoDatoException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../poo_intefaces_repositories/src/org/arthe/poointerfaces/repositorio/exceptions/EscrituraAccesoDatoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../poo_intefaces_repositories/src/org/arthe/poointerfaces/repositorio/exceptions/EscrituraAccesoDatoException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../poo_intefaces_repositories/src/org/arthe/poointerfaces/repositorio/exceptions/LecturaAccesoDatoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../poo_intefaces_repositories/src/org/arthe/poointerfaces/repositorio/exceptions/LecturaAccesoDatoException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../poo_intefaces_repositories/src/org/arthe/poointerfaces/repositorio/exceptions/RegistroDuplicadoAccesoDatoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../poo_intefaces_repositories/src/org/arthe/poointerfaces/repositorio/exceptions/RegistroDuplicadoAccesoDatoException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../poo_intefaces_repositories/src/org/arthe/poointerfaces/repositorio/lista/ClienteListRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../poo_intefaces_repositories/src/org/arthe/poointerfaces/repositorio/lista/ClienteListRepositorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../poo_intefaces_repositories/src/org/arthe/poointerfaces/repositorio/lista/ProductoListRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../poo_intefaces_repositories/src/org/arthe/poointerfaces/repositorio/lista/ProductoListRepositorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../poo_interfaces/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../poo_interfaces/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/patrones_diseno/com/arthe/patrones/composite/EjemploComposite.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/patrones_diseno/com/arthe/patrones/composite/EjemploComposite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/patrones_diseno/com/arthe/patrones/composite/archivos/Archivo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/patrones_diseno/com/arthe/patrones/composite/archivos/Archivo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/arthe/patrones/composite/EjemploComposite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/arthe/patrones/composite/EjemploComposite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/arthe/patrones/composite/archivos/Archivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/arthe/patrones/composite/archivos/Archivo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poo_interfaces_repositorio/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../poo_interfaces_repositorio/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +118,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -136,7 +134,7 @@
       <recent name="com.arthe.patrones.composite" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploObserverUsu">
+  <component name="RunManager" selected="Application.EjemploObserver">
     <configuration name="EjemploCafe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.arthe.patrones.decorado.cafe.EjemploCafe" />
       <module name="patrones_diseno" />
@@ -211,10 +209,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EjemploObserverUsu" />
         <item itemvalue="Application.EjemploObserver" />
-        <item itemvalue="Application.EjemploCompositeBuscar" />
         <item itemvalue="Application.EjemploComposite" />
+        <item itemvalue="Application.EjemploObserverUsu" />
+        <item itemvalue="Application.EjemploCompositeBuscar" />
         <item itemvalue="Application.EjemploCafe" />
       </list>
     </recent_temporary>
@@ -232,6 +230,8 @@
       <updated>1667952138768</updated>
       <workItem from="1667952138985" duration="8879000" />
       <workItem from="1668111853828" duration="22593000" />
+      <workItem from="1670349528460" duration="13000" />
+      <workItem from="1670374462125" duration="1280000" />
     </task>
     <servers />
   </component>

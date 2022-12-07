@@ -1,1 +1,11 @@
-C:\Users\w10\Documents\Learning\intellijCourseJakarta\JavaEE\webapp-headers\src\main\java\com.arthe.apiservlet.webapp.headers\CabecerasHttpRequest.java
+C:\Users\w10\Documents\Learning\intellijCourseJakarta\JavaEE\webapp-headers\src\main\java\com\arthe\apiservlet\webapp\headers\controllers\DespacharServlet.java
+C:\Users\w10\Documents\Learning\intellijCourseJakarta\JavaEE\webapp-headers\src\main\java\com\arthe\apiservlet\webapp\headers\controllers\ProductoJsonServlet.java
+C:\Users\w10\Documents\Learning\intellijCourseJakarta\JavaEE\webapp-headers\src\main\java\com\arthe\apiservlet\webapp\headers\models\Producto.java
+C:\Users\w10\Documents\Learning\intellijCourseJakarta\JavaEE\webapp-headers\src\main\java\com\arthe\apiservlet\webapp\headers\controllers\ProductoXlsServlet.java
+C:\Users\w10\Documents\Learning\intellijCourseJakarta\JavaEE\webapp-headers\src\main\java\com\arthe\apiservlet\webapp\headers\controllers\LoginServlet.java
+C:\Users\w10\Documents\Learning\intellijCourseJakarta\JavaEE\webapp-headers\src\main\java\com\arthe\apiservlet\webapp\headers\controllers\RedirigirServlet.java
+C:\Users\w10\Documents\Learning\intellijCourseJakarta\JavaEE\webapp-headers\src\main\java\com\arthe\apiservlet\webapp\headers\services\ProductoSrevice.java
+C:\Users\w10\Documents\Learning\intellijCourseJakarta\JavaEE\webapp-headers\src\main\java\com\arthe\apiservlet\webapp\headers\controllers\BuscarProductoServlet.java
+C:\Users\w10\Documents\Learning\intellijCourseJakarta\JavaEE\webapp-headers\src\main\java\com\arthe\apiservlet\webapp\headers\controllers\HoraActualizaServlet.java
+C:\Users\w10\Documents\Learning\intellijCourseJakarta\JavaEE\webapp-headers\src\main\java\com\arthe\apiservlet\webapp\headers\services\ProductoServiceImpl.java
+C:\Users\w10\Documents\Learning\intellijCourseJakarta\JavaEE\webapp-headers\src\main\java\com\arthe\apiservlet\webapp\headers\controllers\CabecerasHttpRequest.java
