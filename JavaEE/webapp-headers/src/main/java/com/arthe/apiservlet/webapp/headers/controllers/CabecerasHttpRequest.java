@@ -1,4 +1,4 @@
-package com.arthe.apiservlet.webapp.headers;
+package com.arthe.apiservlet.webapp.headers.controllers;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -8,9 +8,7 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.TreeMap;
+import java.util.*;
 
 @WebServlet("/cabeceras-request")
 public class CabecerasHttpRequest extends HttpServlet {
@@ -30,21 +28,36 @@ public class CabecerasHttpRequest extends HttpServlet {
         String locale = String.valueOf(req.getLocale());
         String locales = String.valueOf(req.getLocales());
         String host = req.getHeader("host");
+        String url =  schema + "://" + host + contextPath + servletPath;
+        String url2 =  schema + "://" + ip + ":" + port + contextPath + servletPath;
+        String userCliente = req.getRemoteUser();
+        String ipCliente = req.getRemoteAddr();
+        String portCliente = String.valueOf(req.getRemotePort());
+        String hostCliente = req.getRemoteHost();
+        String serverName = req.getServerName();
+        String serverPort = String.valueOf(req.getServerPort());
 
+        Map<String,String>  datos = new TreeMap<>();
 
-        Map<String,String>  datos = new HashMap<>();
-
-        datos.put("Metodo-Http", metodoHttp);
-        datos.put("Request-URI", requestUri);
-        datos.put("Request-URL", requestUrl);
-        datos.put("Context-Path", contextPath);
-        datos.put("Servlet-Path", servletPath);
         datos.put("Addres-IP", ip);
         datos.put("Addres-Port", port);
         datos.put("Addres-Locale", locale);
         datos.put("Addres-Locales", locales);
-        datos.put("Request-Schema", schema);
+        datos.put("Construida-URL", url);
+        datos.put("Construida-URL2", url2);
+        datos.put("Cliente-user", userCliente);
+        datos.put("Cliente-ip", ipCliente);
+        datos.put("Cliente-port", portCliente);
+        datos.put("Cliente-host", hostCliente);
+        datos.put("Context-Path", contextPath);
+        datos.put("Metodo-Http", metodoHttp);
+        datos.put("Request-URI", requestUri);
+        datos.put("Request-URL", requestUrl);
         datos.put("Request-HOST", host);
+        datos.put("Request-Schema", schema);
+        datos.put("Servlet-Path", servletPath);
+        datos.put("Server-Name", serverName);
+        datos.put("Server-Port", serverPort);
 
         try (PrintWriter out = resp.getWriter()) {
             out.println("<!DOCTYPE html>");
@@ -62,6 +75,11 @@ public class CabecerasHttpRequest extends HttpServlet {
                 out.println("<li>");
                 out.println( keys[0]+ " "+ keys[1] + ": " + dato.getValue());
                 out.println("</li>");
+            }
+            Enumeration<String> headerNames = req.getHeaderNames();
+            while (headerNames.hasMoreElements()){
+                String cabecera = headerNames.nextElement();
+                out.println("<li>" + cabecera + ": " + req.getHeader(cabecera) + "</li>");
             }
             out.println("</ul>");
 
