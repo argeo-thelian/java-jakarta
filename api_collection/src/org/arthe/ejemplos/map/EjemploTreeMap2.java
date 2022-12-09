@@ -19,8 +19,7 @@ public class EjemploTreeMap2 {
         direccion.put("calle", "One Street");
         direccion.put("numero", "120");
         persona.put("direccion", direccion);
-
-
+        System.out.println(String.format("%s",null).toUpperCase(Locale.ROOT));
         System.out.println("persona = " +persona );
 
     }

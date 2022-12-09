@@ -1,0 +1,6 @@
+
+Q	java:S125"<This block of commented-out lines of code should be removed.(Éëœô
+S	java:S106"9Replace this use of System.out or System.err by a logger.(±İàùÿÿÿÿ
+o
+java:S5669"MCast this argument to 'Object' to pass a single element to the vararg method.(±İàùÿÿÿÿ8ÊÿëÎ0
+S	java:S106"9Replace this use of System.out or System.err by a logger.(æÒù–ùÿÿÿÿ
