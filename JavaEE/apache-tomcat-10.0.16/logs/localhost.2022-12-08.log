@@ -1,0 +1,3 @@
+08-Dec-2022 18:09:46.097 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+08-Dec-2022 18:09:46.097 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+08-Dec-2022 18:09:46.098 INFORMACIÓN [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@7158daf2')

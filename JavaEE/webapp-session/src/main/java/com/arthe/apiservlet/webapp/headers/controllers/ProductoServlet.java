@@ -18,7 +18,7 @@ public class ProductoServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        ProductoSrevice service = new ProductoServiceImpl();
+        ProductoService service = new ProductoServiceImpl();
         List<Producto> productos = service.findAll();
 
         LoginService auth = new LoginServiceSessionImpl();
@@ -49,14 +49,23 @@ public class ProductoServlet extends HttpServlet {
             out.println("           <th>id</th>");
             out.println("           <th>nombre</th>");
             out.println("           <th>tipo</th>");
-            usernameOptional.ifPresent(s -> out.println("           <th>precio</th>"));
+            usernameOptional.ifPresent(s -> {
+                        out.println("           <th>precio</th>");
+                        out.println("           <th>agregar</th>");
+            });
             out.println("       </tr>");
             productos.forEach(p -> {
                 out.println("       <tr>");
                 out.println("           <td>" + p.getId() + "</td>");
                 out.println("           <td>" + p.getNombre() + "</td>");
                 out.println("           <td>" + p.getTipo() + "</td>");
-                usernameOptional.ifPresent(s -> out.println("           <td>" + p.getPrecio() + "</td>"));
+                usernameOptional.ifPresent(s -> {
+                    out.println("           <td>$ " + p.getPrecio() + "</td>");
+                    out.println("           <td><a href=\""
+                            + req.getContextPath()
+                            + "/agregar-carro?id="
+                            + p.getId() + "\">agregar al carro</a></td>");
+                });
                 out.println("       </tr>");
             });
             out.println("   </table>");
