@@ -1,0 +1,65 @@
+09-Dec-2022 10:53:06.744 INFORMACIÓN [http-nio-8080-exec-54] org.apache.catalina.core.ApplicationContext.log Inicializando la aplicación.
+09-Dec-2022 10:53:18.501 INFORMACIÓN [http-nio-8080-exec-62] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+09-Dec-2022 10:53:18.502 INFORMACIÓN [http-nio-8080-exec-62] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+09-Dec-2022 10:53:20.386 INFORMACIÓN [http-nio-8080-exec-63] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+09-Dec-2022 10:53:20.386 INFORMACIÓN [http-nio-8080-exec-63] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+09-Dec-2022 10:54:56.503 INFORMACIÓN [http-nio-8080-exec-64] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+09-Dec-2022 10:54:56.503 INFORMACIÓN [http-nio-8080-exec-64] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+09-Dec-2022 10:56:02.796 INFORMACIÓN [http-nio-8080-exec-67] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+09-Dec-2022 10:56:02.805 INFORMACIÓN [http-nio-8080-exec-67] org.apache.catalina.core.ApplicationContext.log Inicialiazando la sesión http.
+09-Dec-2022 10:56:03.105 INFORMACIÓN [http-nio-8080-exec-67] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+09-Dec-2022 10:56:39.222 INFORMACIÓN [http-nio-8080-exec-70] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+09-Dec-2022 10:56:39.223 INFORMACIÓN [http-nio-8080-exec-70] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+09-Dec-2022 10:56:39.234 INFORMACIÓN [http-nio-8080-exec-64] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+09-Dec-2022 10:56:39.235 INFORMACIÓN [http-nio-8080-exec-64] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+09-Dec-2022 10:57:34.907 INFORMACIÓN [http-nio-8080-exec-65] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+09-Dec-2022 10:57:34.908 INFORMACIÓN [http-nio-8080-exec-65] org.apache.catalina.core.ApplicationContext.log Inicialiazando la sesión http.
+09-Dec-2022 10:57:34.908 INFORMACIÓN [http-nio-8080-exec-65] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+09-Dec-2022 10:57:34.917 INFORMACIÓN [http-nio-8080-exec-67] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+09-Dec-2022 10:57:34.918 INFORMACIÓN [http-nio-8080-exec-67] org.apache.catalina.core.ApplicationContext.log Inicialiazando la sesión http.
+09-Dec-2022 10:57:34.921 INFORMACIÓN [http-nio-8080-exec-67] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+09-Dec-2022 11:28:24.159 INFORMACIÓN [Catalina-utility-2] org.apache.catalina.core.ApplicationContext.log Inicialiazando la sesión http.
+09-Dec-2022 12:26:20.118 INFORMACIÓN [http-nio-8080-exec-70] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+09-Dec-2022 12:26:20.126 INFORMACIÓN [http-nio-8080-exec-70] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+09-Dec-2022 12:26:25.268 INFORMACIÓN [http-nio-8080-exec-64] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+09-Dec-2022 12:26:25.270 INFORMACIÓN [http-nio-8080-exec-64] org.apache.catalina.core.ApplicationContext.log Inicialiazando la sesión http.
+09-Dec-2022 12:26:25.277 INFORMACIÓN [http-nio-8080-exec-64] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+09-Dec-2022 12:26:29.397 INFORMACIÓN [http-nio-8080-exec-71] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+09-Dec-2022 12:26:29.437 INFORMACIÓN [http-nio-8080-exec-71] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+09-Dec-2022 12:26:33.720 INFORMACIÓN [http-nio-8080-exec-66] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+09-Dec-2022 12:26:34.183 INFORMACIÓN [http-nio-8080-exec-66] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+09-Dec-2022 12:26:38.350 INFORMACIÓN [http-nio-8080-exec-65] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+09-Dec-2022 12:26:38.350 INFORMACIÓN [http-nio-8080-exec-65] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+09-Dec-2022 12:26:41.077 INFORMACIÓN [http-nio-8080-exec-67] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+09-Dec-2022 12:26:41.080 INFORMACIÓN [http-nio-8080-exec-67] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+09-Dec-2022 12:26:42.329 INFORMACIÓN [http-nio-8080-exec-72] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+09-Dec-2022 12:26:42.330 INFORMACIÓN [http-nio-8080-exec-72] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+09-Dec-2022 12:26:43.815 INFORMACIÓN [http-nio-8080-exec-69] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+09-Dec-2022 12:26:43.816 INFORMACIÓN [http-nio-8080-exec-69] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+09-Dec-2022 12:26:43.828 INFORMACIÓN [http-nio-8080-exec-68] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+09-Dec-2022 12:26:43.828 INFORMACIÓN [http-nio-8080-exec-68] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+09-Dec-2022 12:27:01.996 INFORMACIÓN [http-nio-8080-exec-64] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+09-Dec-2022 12:27:01.998 INFORMACIÓN [http-nio-8080-exec-64] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+09-Dec-2022 12:27:59.903 INFORMACIÓN [http-nio-8080-exec-73] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+09-Dec-2022 12:27:59.920 INFORMACIÓN [http-nio-8080-exec-73] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+09-Dec-2022 12:27:59.928 INFORMACIÓN [http-nio-8080-exec-65] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+09-Dec-2022 12:27:59.938 INFORMACIÓN [http-nio-8080-exec-65] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+09-Dec-2022 12:28:01.703 INFORMACIÓN [http-nio-8080-exec-67] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+09-Dec-2022 12:28:01.710 INFORMACIÓN [http-nio-8080-exec-67] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+09-Dec-2022 12:28:02.625 INFORMACIÓN [http-nio-8080-exec-72] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+09-Dec-2022 12:28:02.626 INFORMACIÓN [http-nio-8080-exec-72] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+09-Dec-2022 12:28:02.634 INFORMACIÓN [http-nio-8080-exec-69] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+09-Dec-2022 12:28:02.635 INFORMACIÓN [http-nio-8080-exec-69] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+09-Dec-2022 12:28:03.707 INFORMACIÓN [http-nio-8080-exec-68] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+09-Dec-2022 12:28:03.709 INFORMACIÓN [http-nio-8080-exec-68] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+09-Dec-2022 12:28:04.610 INFORMACIÓN [http-nio-8080-exec-70] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+09-Dec-2022 12:28:04.612 INFORMACIÓN [http-nio-8080-exec-70] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+09-Dec-2022 12:28:04.618 INFORMACIÓN [http-nio-8080-exec-64] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+09-Dec-2022 12:28:04.621 INFORMACIÓN [http-nio-8080-exec-64] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+09-Dec-2022 12:28:07.439 INFORMACIÓN [http-nio-8080-exec-71] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+09-Dec-2022 12:28:07.440 INFORMACIÓN [http-nio-8080-exec-71] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+09-Dec-2022 12:28:08.228 INFORMACIÓN [http-nio-8080-exec-66] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+09-Dec-2022 12:28:08.229 INFORMACIÓN [http-nio-8080-exec-66] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+09-Dec-2022 12:28:08.236 INFORMACIÓN [http-nio-8080-exec-73] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+09-Dec-2022 12:28:08.237 INFORMACIÓN [http-nio-8080-exec-73] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+09-Dec-2022 12:58:45.077 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.core.ApplicationContext.log Inicialiazando la sesión http.
