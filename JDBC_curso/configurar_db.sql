@@ -55,3 +55,7 @@ ADD UNIQUE INDEX `sku_UNIQUE` (`sku` ASC) VISIBLE;
 --Add elemtro 3 
 UPDATE `java_curso`.`productos` SET `sku` = 'asde1234' WHERE (`id` = '2');
 INSERT INTO `java_curso`.`productos` (`id`, `nombre`, `precio`, `fecha_registro`, `categoria_id`, `sku`) VALUES ('3', 'Teclado', '230', '2021-05-19 00:00:00', '2', 'asdee1234');
+
+--Add elements on CATEGORY
+INSERT INTO `java_curso`.`categorias` (`nombre`) VALUES ('Electrohogar');
+INSERT INTO `java_curso`.`categorias` (`nombre`) VALUES ('Iluminación');
