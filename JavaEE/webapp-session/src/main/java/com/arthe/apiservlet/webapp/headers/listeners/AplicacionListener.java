@@ -1,7 +1,9 @@
 package com.arthe.apiservlet.webapp.headers.listeners;
 
+import com.arthe.apiservlet.webapp.headers.models.Carro;
 import jakarta.servlet.*;
 import jakarta.servlet.annotation.WebListener;
+import jakarta.servlet.http.HttpSession;
 import jakarta.servlet.http.HttpSessionEvent;
 import jakarta.servlet.http.HttpSessionListener;
 
@@ -18,6 +20,7 @@ public class AplicacionListener implements ServletContextListener,
     public void contextInitialized(ServletContextEvent sce) {
         sce.getServletContext().log("Inicializando la aplicación.");
         servletContext = sce.getServletContext();
+        servletContext.setAttribute("mensaje","algun valor global de la app.");
     }
 
     //ServletContextListener
@@ -30,6 +33,7 @@ public class AplicacionListener implements ServletContextListener,
     @Override
     public void requestInitialized(ServletRequestEvent sre) {
         sre.getServletContext().log("Inicializando el request!");
+        sre.getServletRequest().setAttribute("mensaje","guardar algun valor en el request.");
     }
 
     //ServletRequestEvent
@@ -43,11 +47,14 @@ public class AplicacionListener implements ServletContextListener,
     @Override
     public void sessionCreated(HttpSessionEvent se) {
         servletContext.log("Inicialiazando la sesión http.");
+        Carro carro = new Carro();
+        HttpSession session = se.getSession();
+        session.setAttribute("carro",carro);
     }
 
     //HttpSessionEvent
     @Override
     public void sessionDestroyed(HttpSessionEvent se) {
-        servletContext.log("Inicialiazando la sesión http.");
+        servletContext.log("Destrutendo la sesión http.");
     }
 }

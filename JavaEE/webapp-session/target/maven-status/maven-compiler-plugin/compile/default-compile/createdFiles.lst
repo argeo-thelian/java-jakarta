@@ -1,3 +1,4 @@
+com\arthe\apiservlet\webapp\headers\filters\LoginFiltro.class
 com\arthe\apiservlet\webapp\headers\models\Carro.class
 com\arthe\apiservlet\webapp\headers\models\ItemCarro.class
 com\arthe\apiservlet\webapp\headers\services\LoginServiceSessionImpl.class
@@ -12,3 +13,4 @@ com\arthe\apiservlet\webapp\headers\controllers\LogoutServlet.class
 com\arthe\apiservlet\webapp\headers\services\ProductoService.class
 com\arthe\apiservlet\webapp\headers\services\LoginService.class
 com\arthe\apiservlet\webapp\headers\controllers\ProductoServlet.class
+com\arthe\apiservlet\webapp\headers\controllers\ActulizarCarroServlet.class

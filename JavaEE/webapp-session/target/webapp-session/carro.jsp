@@ -1,47 +1,54 @@
-<%@page contentType="text/html" pageEncoding="UTF-8" import="com.arthe.apiservlet.webapp.headers.models.*" %>
-
+<%@page contentType="text/html" pageEncoding="UTF-8" %>
+<%@ page import="com.arthe.apiservlet.webapp.headers.models.*" %>
 <%
-Carro carro = (Carro) session.getAttribute("carro");
+    Carro carro = (Carro) session.getAttribute("carro");
 %>
-<!doctype html>
-<html lang="es">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Carro de Compras</title>
 </head>
 <body>
-    <h1>Carro de compras</h1>
-
-    <% if (carro == null || carro.getItems().isEmpty()){ %>
-        <p>Lo sentimos, no hay productos en el carro!</p>
-    <% }else{ %>
-        <table>
-            <tr>
-                <th>Id</th>
-                <th>Nombre</th>
-                <th>Precio</th>
-                <th>Cantidad</th>
-                <th>total</th>
-            </tr>
-            <% for (ItemCarro item: carro.getItems()){ %>
-            <tr>
-                <td><%=item.getProducto().getId()%></td>
-                <td><%=item.getProducto().getNombre()%></td>
-                <td>$ <%=item.getProducto().getPrecio()%></td>
-                <td><%=item.getCantidad()%></td>
-                <td>$ <%=item.getImporte()%></td>
-             </tr>
-            <% } %>
-            <tr>
-                <td colspan="4" style="text-align: right">Total:</td>
-                <td>$ <%=carro.getTotal()%></td>
-            </tr>
-        </table>
-    <% } %>
-    <p><a href="<%=request.getContextPath()%>/productos">Seguir comprando</a></p>
-    <p><a href="<%=request.getContextPath()%>/index.html">volver</a></p>
+<h1>Carro de Compras</h1>
+<% if (carro.getItems().isEmpty()) {%>
+<p>Lo sentimos no hay productos en el carro de compras!</p>
+<%} else { %>
+<form name="formcarro" action="<%=request.getContextPath()%>/carro/actualizar" method="post">
+    <table>
+        <tr>
+            <th>id</th>
+            <th>nombre</th>
+            <th>precio</th>
+            <th>cantidad</th>
+            <th>total</th>
+            <th>borrar</th>
+        </tr>
+        <%for (ItemCarro item : carro.getItems()) {%>
+        <tr>
+            <td><%=item.getProducto().getId()%>
+            </td>
+            <td><%=item.getProducto().getNombre()%>
+            </td>
+            <td><%=item.getProducto().getPrecio()%>
+            </td>
+            <td><input type="text" size="4" name="cant_<%=item.getProducto().getId()%>"
+                       value="<%=item.getCantidad()%>"/></td>
+            <td><%=item.getImporte()%>
+            </td>
+            <td><input type="checkbox" value="<%=item.getProducto().getId()%>" name="deleteProductos"/></td>
+        </tr>
+        <%}%>
+        <tr>
+            <td colspan="4" style="text-align: right">Total:</td>
+            <td><%=carro.getTotal()%>
+            </td>
+        </tr>
+    </table>
+    <input type="submit" value="Actualizar">
+</form>
+<%}%>
+<p><a href="<%=request.getContextPath()%>/productos">seguir comprando</a></p>
+<p><a href="<%=request.getContextPath()%>/index.html">volver</a></p>
 </body>
 </html>
