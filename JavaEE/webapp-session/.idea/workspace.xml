@@ -1,118 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="296af908-f09f-4907-90c3-3ff3722f93a4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/lib/mysql-connector-java-8.0.28.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/logs/localhost.2022-12-14.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/Utils/ConexionBaseDatos.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/filters/ConexionFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/filters/LoginFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/repositories/ProductoRepositoryJdbcImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/repositories/Repository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/services/ProductoServiceJdbcImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/services/ServiceJdbcException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session/listar.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/work/Catalina/localhost/webapp-session/org/apache/jsp/carro_jsp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/work/Catalina/localhost/webapp-session/org/apache/jsp/carro_jsp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/work/Catalina/localhost/webapp-session/org/apache/jsp/listar_jsp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/work/Catalina/localhost/webapp-session/org/apache/jsp/listar_jsp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/work/Catalina/localhost/webapp-session/org/apache/jsp/login_jsp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/work/Catalina/localhost/webapp-session/org/apache/jsp/login_jsp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webapp-bbdd-tarea9/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webapp-bbdd-tarea9/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webapp-bbdd-tarea9/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webapp-bbdd-tarea9/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webapp-bbdd-tarea9/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webapp-bbdd-tarea9/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webapp-bbdd-tarea9/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webapp-bbdd-tarea9/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webapp-bbdd-tarea9/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webapp-bbdd-tarea9/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webapp-bbdd-tarea9/src/main/java/com/arthe/webapp/bbddd/tarea9/controllers/BuscarCursoServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webapp-bbdd-tarea9/src/main/java/com/arthe/webapp/bbddd/tarea9/controllers/CursoServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webapp-bbdd-tarea9/src/main/java/com/arthe/webapp/bbddd/tarea9/filters/ConexionFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webapp-bbdd-tarea9/src/main/java/com/arthe/webapp/bbddd/tarea9/models/Curso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webapp-bbdd-tarea9/src/main/java/com/arthe/webapp/bbddd/tarea9/repositories/CursoRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webapp-bbdd-tarea9/src/main/java/com/arthe/webapp/bbddd/tarea9/repositories/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webapp-bbdd-tarea9/src/main/java/com/arthe/webapp/bbddd/tarea9/services/CursoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webapp-bbdd-tarea9/src/main/java/com/arthe/webapp/bbddd/tarea9/services/CursoServiceJdbcImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webapp-bbdd-tarea9/src/main/java/com/arthe/webapp/bbddd/tarea9/services/ServiceJdbcExecption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webapp-bbdd-tarea9/src/main/java/com/arthe/webapp/bbddd/tarea9/utils/ConexionBaseDatos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webapp-bbdd-tarea9/src/main/webapp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webapp-bbdd-tarea9/src/main/webapp/listar.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webapp-cookie/.idea/sonarlint/issuestore/0/9/09f98a0c9beccaa49d865bef75f46d80b8d3d165" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webapp-cookie/.idea/sonarlint/issuestore/1/3/1337d72a3b1928dba82aa5210f5cdc0e88ce895b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webapp-cookie/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webapp-cookie/.idea/sonarlint/issuestore/4/b/4b56cdcf1604e3f80aa17a5c203117d4ee5c5cdc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webapp-cookie/.idea/sonarlint/issuestore/4/d/4d52137e9d2ee991ee4bada3a07fe8f0b36ae90e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webapp-cookie/.idea/sonarlint/issuestore/5/2/52cadf802596d63c92257e33ce8aed6c30396a12" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webapp-cookie/.idea/sonarlint/issuestore/7/2/72eb25f9ab0f51444afdb65e2b35840bf6bbc10c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webapp-cookie/.idea/sonarlint/issuestore/8/5/85ee523d01e5e19376db640e846c91bbcb0a1c22" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webapp-cookie/.idea/sonarlint/issuestore/9/e/9e8a02ffdfa6fab6caf71fdc69baf8f262caa1d7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webapp-cookie/.idea/sonarlint/issuestore/f/3/f33b41caabb37b911ff4543b9759166296258c55" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webapp-cookie/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/arthe/apiservlet/webapp/headers/Utils/ConexionBaseDatos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/arthe/apiservlet/webapp/headers/filters/ConexionFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/arthe/apiservlet/webapp/headers/repositories/ProductoRepositoryJdbcImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/arthe/apiservlet/webapp/headers/repositories/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/arthe/apiservlet/webapp/headers/services/ProductoServiceJdbcImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/arthe/apiservlet/webapp/headers/services/ServiceJdbcException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/listar.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/arthe/apiservlet/webapp/headers/Utils/ConexionBaseDatos.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/arthe/apiservlet/webapp/headers/filters/ConexionFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/arthe/apiservlet/webapp/headers/filters/LoginFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/arthe/apiservlet/webapp/headers/repositories/ProductoRepositoryJdbcImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/arthe/apiservlet/webapp/headers/repositories/Repository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/arthe/apiservlet/webapp/headers/services/ProductoServiceJdbcImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/arthe/apiservlet/webapp/headers/services/ServiceJdbcException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/Utils/ConexionBaseDatos.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/filters/ConexionFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/filters/LoginFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/repositories/ProductoRepositoryJdbcImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/repositories/Repository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/services/ProductoServiceJdbcImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/services/ServiceJdbcException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/webapp-session/listar.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JDBC_curso/configurar_db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../JDBC_curso/configurar_db.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/logs/catalina.2022-12-13.log" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/logs/catalina.2022-12-13.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/logs/localhost.2022-12-13.log" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/logs/localhost.2022-12-13.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/logs/localhost_access_log.2022-12-13.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/logs/localhost_access_log.2022-12-13.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/logs/manager.2022-12-13.log" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/logs/manager.2022-12-13.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session.war" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/controllers/AddCarroServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/controllers/AddCarroServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/controllers/ProductoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/controllers/ProductoServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/filters/LoginFiltro.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webapp-cookie/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../webapp-cookie/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webapp-form/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webapp-form/.idea/sonarlint/issuestore/8/e/8e6d3b70c9f5b02570779b0441540d45eceb0ded" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webapp-form/.idea/sonarlint/issuestore/9/9/991a6f8682644b466a176aa18b558bfe00be27e7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webapp-form/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../webapp-form/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/arthe/apiservlet/webapp/headers/models/Categoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/arthe/apiservlet/webapp/headers/repositories/CategoriaRespositoryJdbcImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/logs/catalina.2022-12-14.log" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/logs/catalina.2022-12-14.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/logs/localhost_access_log.2022-12-14.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/logs/localhost_access_log.2022-12-14.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/logs/manager.2022-12-14.log" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/logs/manager.2022-12-14.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/arthe/apiservlet/webapp/headers/controllers/AddCarroServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arthe/apiservlet/webapp/headers/controllers/AddCarroServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/arthe/apiservlet/webapp/headers/controllers/ProductoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arthe/apiservlet/webapp/headers/controllers/ProductoServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/arthe/apiservlet/webapp/headers/filters/LoginFiltro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arthe/apiservlet/webapp/headers/filters/LoginFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/arthe/apiservlet/webapp/headers/controllers/AddCarroServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arthe/apiservlet/webapp/headers/controllers/AddCarroServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/arthe/apiservlet/webapp/headers/controllers/ProductoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arthe/apiservlet/webapp/headers/controllers/ProductoServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/arthe/apiservlet/webapp/headers/filters/LoginFiltro.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/webapp-session.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp-session.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/controllers/AddCarroServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/controllers/AddCarroServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/controllers/ProductoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/controllers/ProductoServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/filters/LoginFiltro.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_jdbc_pool/.idea/sonarlint/issuestore/0/1/0178552313942117049a29dec2501842480f5b81" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_jdbc_pool/.idea/sonarlint/issuestore/2/8/28780a4674c75ae360237b449607341fec4d40eb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_jdbc_pool/.idea/sonarlint/issuestore/3/7/37dc8dd909ab98a5d4bc181aae497049544e3d87" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_jdbc_pool/.idea/sonarlint/issuestore/5/d/5d2b03ec0b729680fe02336a7008963397828232" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_jdbc_pool/.idea/sonarlint/issuestore/9/7/97097f7b9e922bb73fd4427e889669bbc40627ae" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_jdbc_pool/.idea/sonarlint/issuestore/b/4/b4b54a30aef3e810a28c21696924f494e4450d08" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_jdbc_pool/.idea/sonarlint/issuestore/c/5/c5c4f63871726f9b8cbb9f8a67313183d0907461" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_jdbc_pool/.idea/sonarlint/issuestore/e/9/e9a971267da2484af8f0e286901c7468412e64c3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_jdbc_pool/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../java_jdbc_pool/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arthe/apiservlet/webapp/headers/models/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arthe/apiservlet/webapp/headers/models/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arthe/apiservlet/webapp/headers/repositories/ProductoRepositoryJdbcImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arthe/apiservlet/webapp/headers/repositories/ProductoRepositoryJdbcImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arthe/apiservlet/webapp/headers/services/ProductoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arthe/apiservlet/webapp/headers/services/ProductoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arthe/apiservlet/webapp/headers/services/ProductoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arthe/apiservlet/webapp/headers/services/ProductoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arthe/apiservlet/webapp/headers/services/ProductoServiceJdbcImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arthe/apiservlet/webapp/headers/services/ProductoServiceJdbcImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/listar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/listar.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,8 +33,8 @@
       <list>
         <option value="Interface" />
         <option value="Jsp File" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -140,15 +49,20 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/arthe/apiservlet/webapp/headers/repositories/CategoriaRespositoryJdbcImpl.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
-        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
   </component>
@@ -163,6 +77,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2IW7SpyMtG1aI3qTaWUoxGlPCJd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -170,6 +87,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -184,6 +102,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.arthe.apiservlet.webapp.headers.models" />
       <recent name="com.arthe.apiservlet.webapp.headers.services" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -230,7 +149,7 @@
       <updated>1670285491126</updated>
       <workItem from="1670285492581" duration="20227000" />
       <workItem from="1670376726153" duration="5450000" />
-      <workItem from="1670452946534" duration="33929000" />
+      <workItem from="1670452946534" duration="42075000" />
     </task>
     <servers />
   </component>
