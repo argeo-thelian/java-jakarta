@@ -1,0 +1,15 @@
+
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¨ºÉİüÿÿÿÿ8ÔÈñĞ0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÂĞØÊûÿÿÿÿ8ÕÈñĞ0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(çú¼Ş8ÖÈñĞ0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ãíÉå8ÖÈñĞ0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(äš‡èùÿÿÿÿ8ÖÈñĞ0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÄÇˆıÿÿÿÿ8×ÈñĞ0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¨ºÉİüÿÿÿÿ8×ÈñĞ0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÂĞØÊûÿÿÿÿ8ØÈñĞ0
+i
+java:S1128"GRemove this unused import 'org.arthe.java.jdbc.util.ConexionBaseDatos'.(˜‚¡¥ıÿÿÿÿ8ÙÈñĞ0
+M
+java:S1128"0Remove this unused import 'java.sql.Connection'.(¥ËôÖ8ÙÈñĞ0
+O
+java:S1128	"2Remove this unused import 'java.sql.SQLException'.(ÛïÆŸ8ÙÈñĞ0

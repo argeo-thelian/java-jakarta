@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [15/Dec/2022:08:54:12 -0600] "POST /webapp-headers/productos.json HTTP/1.1" 200 380
+127.0.0.1 - admin [15/Dec/2022:10:22:10 -0600] "PUT /manager/text/deploy?path=%2Fwebapp-headers&update=true HTTP/1.1" 200 85
+127.0.0.1 - - [15/Dec/2022:10:22:11 -0600] "GET /webapp-headers HTTP/1.1" 302 -
+127.0.0.1 - - [15/Dec/2022:10:22:11 -0600] "GET /webapp-headers/ HTTP/1.1" 200 934
+127.0.0.1 - - [15/Dec/2022:10:22:11 -0600] "GET /favicon.ico HTTP/1.1" 200 8192
+127.0.0.1 - - [15/Dec/2022:10:22:13 -0600] "GET /webapp-headers/cabeceras-request HTTP/1.1" 200 1811

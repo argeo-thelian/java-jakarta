@@ -1,0 +1,6 @@
+16-Dec-2022 23:30:11.605 INFORMACIÓN [http-nio-8080-exec-122] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp-session'
+16-Dec-2022 23:30:11.608 INFORMACIÓN [http-nio-8080-exec-122] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\w10\Documents\Learning\intellijCourseJakarta\JavaEE\apache-tomcat-10.0.16\webapps\webapp-session.war.tmp
+16-Dec-2022 23:32:44.388 INFORMACIÓN [http-nio-8080-exec-132] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp-session'
+16-Dec-2022 23:32:44.388 INFORMACIÓN [http-nio-8080-exec-132] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\w10\Documents\Learning\intellijCourseJakarta\JavaEE\apache-tomcat-10.0.16\webapps\webapp-session.war.tmp
+16-Dec-2022 23:35:08.909 INFORMACIÓN [http-nio-8080-exec-142] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp-session'
+16-Dec-2022 23:35:08.909 INFORMACIÓN [http-nio-8080-exec-142] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\w10\Documents\Learning\intellijCourseJakarta\JavaEE\apache-tomcat-10.0.16\webapps\webapp-session.war.tmp

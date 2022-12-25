@@ -35,7 +35,7 @@ public class ProductoRepositoryJdbcImpl implements Repository<Producto> {
         Producto producto = null;
 
         try (PreparedStatement stmt = conn.prepareStatement("SELECT p.*, c.nombre as categoria FROM productos as p " +
-                " INNER JOIN categorias as c ON (p.categoria_id = c.id) WHERE p.id = ?")) {
+                " INNER JOIN categorias as c ON (p.categoria_id = c.id) WHERE p.id = ? order by p.id ASC")) {
             stmt.setLong(1, id);
             try (ResultSet rs = stmt.executeQuery()) {
                 if (rs.next()) {

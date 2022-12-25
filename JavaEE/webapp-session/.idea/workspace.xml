@@ -8,20 +8,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="296af908-f09f-4907-90c3-3ff3722f93a4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/arthe/apiservlet/webapp/headers/models/Categoria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/arthe/apiservlet/webapp/headers/repositories/CategoriaRespositoryJdbcImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/logs/catalina.2022-12-14.log" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/logs/catalina.2022-12-14.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/logs/localhost_access_log.2022-12-14.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/logs/localhost_access_log.2022-12-14.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/logs/manager.2022-12-14.log" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/logs/manager.2022-12-14.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/arthe/apiservlet/webapp/headers/controllers/ProductoEliminarServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/arthe/apiservlet/webapp/headers/controllers/ProductoFormServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/form.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/logs/localhost.2022-12-14.log" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/logs/localhost.2022-12-14.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-headers.war" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-headers.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session.war" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/controllers/LogoutServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/controllers/LogoutServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/models/Producto.class" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/models/Producto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/repositories/ProductoRepositoryJdbcImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/repositories/ProductoRepositoryJdbcImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/services/ProductoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/services/ProductoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/services/ProductoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/services/ProductoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/services/ProductoServiceJdbcImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/services/ProductoServiceJdbcImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session/listar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session/listar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/work/Catalina/localhost/webapp-session/org/apache/jsp/carro_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/work/Catalina/localhost/webapp-session/org/apache/jsp/carro_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/work/Catalina/localhost/webapp-session/org/apache/jsp/listar_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/work/Catalina/localhost/webapp-session/org/apache/jsp/listar_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/work/Catalina/localhost/webapp-session/org/apache/jsp/listar_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/work/Catalina/localhost/webapp-session/org/apache/jsp/listar_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/work/Catalina/localhost/webapp-session/org/apache/jsp/login_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/work/Catalina/localhost/webapp-session/org/apache/jsp/login_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webapp-bbdd-tarea9/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../webapp-bbdd-tarea9/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webapp-form/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../webapp-form/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webapp-headers/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../webapp-headers/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webapp-headers/target/webapp-headers.war" beforeDir="false" afterPath="$PROJECT_DIR$/../webapp-headers/target/webapp-headers.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/eda0b418-1b05-4239-a414-cf47b0064eae.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/eda0b418-1b05-4239-a414-cf47b0064eae.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/eda0b418-1b05-4239-a414-cf47b0064eae/storage_v2/_src_/schema/information_schema.FNRwLQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/eda0b418-1b05-4239-a414-cf47b0064eae/storage_v2/_src_/schema/information_schema.FNRwLQ.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/arthe/apiservlet/webapp/headers/models/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arthe/apiservlet/webapp/headers/models/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arthe/apiservlet/webapp/headers/controllers/LogoutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arthe/apiservlet/webapp/headers/controllers/LogoutServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/arthe/apiservlet/webapp/headers/repositories/ProductoRepositoryJdbcImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arthe/apiservlet/webapp/headers/repositories/ProductoRepositoryJdbcImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/arthe/apiservlet/webapp/headers/services/ProductoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arthe/apiservlet/webapp/headers/services/ProductoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/arthe/apiservlet/webapp/headers/services/ProductoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arthe/apiservlet/webapp/headers/services/ProductoServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/arthe/apiservlet/webapp/headers/services/ProductoServiceJdbcImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arthe/apiservlet/webapp/headers/services/ProductoServiceJdbcImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/listar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/listar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/arthe/apiservlet/webapp/headers/controllers/LogoutServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arthe/apiservlet/webapp/headers/controllers/LogoutServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/arthe/apiservlet/webapp/headers/models/Producto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arthe/apiservlet/webapp/headers/models/Producto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/arthe/apiservlet/webapp/headers/repositories/ProductoRepositoryJdbcImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arthe/apiservlet/webapp/headers/repositories/ProductoRepositoryJdbcImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/arthe/apiservlet/webapp/headers/services/ProductoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arthe/apiservlet/webapp/headers/services/ProductoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/arthe/apiservlet/webapp/headers/services/ProductoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arthe/apiservlet/webapp/headers/services/ProductoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/arthe/apiservlet/webapp/headers/services/ProductoServiceJdbcImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arthe/apiservlet/webapp/headers/services/ProductoServiceJdbcImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-session.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp-session.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/controllers/LogoutServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/controllers/LogoutServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/models/Producto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/models/Producto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/repositories/ProductoRepositoryJdbcImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/repositories/ProductoRepositoryJdbcImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/services/ProductoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/services/ProductoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/services/ProductoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/services/ProductoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/services/ProductoServiceJdbcImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/services/ProductoServiceJdbcImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-session/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp-session/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-session/listar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp-session/listar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webapp/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../webapp/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java_jdbc_pool/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../java_jdbc_pool/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +69,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Jsp File" />
         <option value="HTML File" />
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -62,7 +99,7 @@
     <option name="myId2Visible">
       <map>
         <entry key="com.haulmont.jpb.jpaPalette" value="false" />
-        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
   </component>
@@ -149,7 +186,10 @@
       <updated>1670285491126</updated>
       <workItem from="1670285492581" duration="20227000" />
       <workItem from="1670376726153" duration="5450000" />
-      <workItem from="1670452946534" duration="42075000" />
+      <workItem from="1670452946534" duration="55462000" />
+      <workItem from="1671479902485" duration="937000" />
+      <workItem from="1671508267615" duration="4995000" />
+      <workItem from="1671634524734" duration="11770000" />
     </task>
     <servers />
   </component>

@@ -3,6 +3,7 @@ package com.arthe.apiservlet.webapp.headers.controllers;
 import com.arthe.apiservlet.webapp.headers.services.LoginService;
 import com.arthe.apiservlet.webapp.headers.services.LoginServiceSessionImpl;
 import com.arthe.apiservlet.webapp.headers.services.LoginSeviceCookieImpl;
+import jakarta.servlet.GenericServlet;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.*;
@@ -22,5 +23,17 @@ public class LogoutServlet extends HttpServlet {
             session.invalidate();
         }
         resp.sendRedirect(req.getContextPath() + "/login.html");
+    }
+
+    public void getdato(String op){
+        Long c = new Long("34232");
+        int b=757;
+        Integer b4= new Integer(b);
+        switch (5){
+            default:
+                System.out.println(3);
+            case 4*2:
+                System.out.println(2);
+        }
     }
 }

@@ -45,22 +45,36 @@ public class  ProductoServiceJdbcImpl implements ProductoService{
         try {
             this.productoRepositoryJdbc.save(producto);
         } catch (SQLException e) {
-            e.printStackTrace();
+            throw new ServiceJdbcException(e.getMessage(), e.getCause());
         }
     }
 
     @Override
     public void eleminar(Long id) {
-
+        try {
+            this.productoRepositoryJdbc.delete(id);
+        } catch (SQLException e) {
+            throw new ServiceJdbcException(e.getMessage(), e.getCause());
+        }
     }
 
     @Override
     public List<Categoria> findAllCategoria() {
-        return null;
+
+        try {
+            return categoriaRepositoryJdbc.findAll();
+        } catch (SQLException e) {
+            throw new ServiceJdbcException(e.getMessage(),e.getCause());
+        }
     }
 
     @Override
     public Optional<Categoria> findByIdCategoria(Long id) {
-        return Optional.empty();
+
+        try {
+            return Optional.ofNullable(categoriaRepositoryJdbc.findById(id));
+        } catch (SQLException e) {
+            throw new ServiceJdbcException(e.getMessage(),e.getCause());
+        }
     }
 }

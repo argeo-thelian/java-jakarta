@@ -1,0 +1,8 @@
+127.0.0.1 - admin [16/Dec/2022:23:30:14 -0600] "PUT /manager/text/deploy?path=%2Fwebapp-session&update=true HTTP/1.1" 200 118
+127.0.0.1 - - [16/Dec/2022:23:30:26 -0600] "GET /webapp-session HTTP/1.1" 404 702
+127.0.0.1 - - [16/Dec/2022:23:30:29 -0600] "GET /webapp-session HTTP/1.1" 404 702
+127.0.0.1 - - [16/Dec/2022:23:30:30 -0600] "GET /webapp-session HTTP/1.1" 404 702
+127.0.0.1 - - [16/Dec/2022:23:30:30 -0600] "GET /webapp-session HTTP/1.1" 404 702
+127.0.0.1 - - [16/Dec/2022:23:30:36 -0600] "GET /webapp-session HTTP/1.1" 404 702
+127.0.0.1 - admin [16/Dec/2022:23:32:54 -0600] "PUT /manager/text/deploy?path=%2Fwebapp-session&update=true HTTP/1.1" 200 118
+127.0.0.1 - admin [16/Dec/2022:23:35:31 -0600] "PUT /manager/text/deploy?path=%2Fwebapp-session&update=true HTTP/1.1" 200 118

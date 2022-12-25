@@ -19,8 +19,6 @@ K
 Xsrc/main/java/com/arthe/apiservlet/webapp/headers/controllers/BuscarProductoServlet.java,0\0\00c636931c227b6ea43d5636bf03ffc6ea162a25
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-J
-src/main/webapp/index.html,1\3\1337d72a3b1928dba82aa5210f5cdc0e88ce895b
 v
 Fsrc/main/java/com/arthe/apiservlet/webapp/headers/models/Producto.java,5\2\52cadf802596d63c92257e33ce8aed6c30396a12
 ƒ
@@ -29,3 +27,5 @@ Ssrc/main/java/com/arthe/apiservlet/webapp/headers/services/ProductoServiceImpl.
 Osrc/main/java/com/arthe/apiservlet/webapp/headers/controllers/LoginServlet.java,4\d\4d52137e9d2ee991ee4bada3a07fe8f0b36ae90e
 ‡
 Wsrc/main/java/com/arthe/apiservlet/webapp/headers/controllers/HoraActualizaServlet.java,3\d\3d58f0ec738a0091b11cf6edfaf55ea206860c3c
+J
+src/main/webapp/index.html,1\3\1337d72a3b1928dba82aa5210f5cdc0e88ce895b
