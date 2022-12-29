@@ -13,8 +13,6 @@ Osrc/main/java/com/arthe/apiservlet/webapp/headers/controllers/LoginServlet.java
 Nsrc/main/java/com/arthe/apiservlet/webapp/headers/Utils/ConexionBaseDatos.java,1\c\1cfa8feeada5da6a9762187f0ad94abe5630c144
 „
 Tsrc/main/java/com/arthe/apiservlet/webapp/headers/services/ServiceJdbcException.java,e\c\ece16f140ea9139750fe534bdb77cc8ea3672743
-7
-pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 ˆ
 Xsrc/main/java/com/arthe/apiservlet/webapp/headers/controllers/ActulizarCarroServlet.java,1\d\1d906d7d804fa1b9d863680482fe3881cbff48b0
 ‚
@@ -23,8 +21,6 @@ Rsrc/main/java/com/arthe/apiservlet/webapp/headers/controllers/AddCarroServlet.j
 Rsrc/main/java/com/arthe/apiservlet/webapp/headers/controllers/ProductoServlet.java,0\9\09f98a0c9beccaa49d865bef75f46d80b8d3d165
 }
 Msrc/main/java/com/arthe/apiservlet/webapp/headers/filters/ConexionFilter.java,c\9\c98220b612685f017cb96734f4cf560e6d9cb965
-z
-Jsrc/main/java/com/arthe/apiservlet/webapp/headers/filters/LoginFilter.java,4\e\4e3015710b46477a7019d3200e52c496463393d1
 w
 Gsrc/main/java/com/arthe/apiservlet/webapp/headers/models/ItemCarro.java,f\4\f4d4ddaf60b2e9a9f6a9025b2fc91cc62d5e1e6a
 w

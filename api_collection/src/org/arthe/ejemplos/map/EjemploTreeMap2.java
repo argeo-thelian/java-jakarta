@@ -1,6 +1,7 @@
 package org.arthe.ejemplos.map;
 
 import java.util.*;
+import static org.arthe.ejemplos.modelo.Usarfuncion.getHola;
 
 public class EjemploTreeMap2 {
     public static void main(String[] args) {
@@ -22,5 +23,6 @@ public class EjemploTreeMap2 {
         System.out.println(String.format("%s",null).toUpperCase(Locale.ROOT));
         System.out.println("persona = " +persona );
 
+        getHola();
     }
 }

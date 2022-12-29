@@ -183,3 +183,4 @@
 22-Dec-2022 12:32:15.970 INFORMACIÓN [http-nio-8080-exec-52] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
 22-Dec-2022 12:32:18.343 INFORMACIÓN [http-nio-8080-exec-59] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
 22-Dec-2022 12:32:18.362 INFORMACIÓN [http-nio-8080-exec-59] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+22-Dec-2022 13:02:58.261 INFORMACIÓN [Catalina-utility-2] org.apache.catalina.core.ApplicationContext.log Destrutendo la sesión http.

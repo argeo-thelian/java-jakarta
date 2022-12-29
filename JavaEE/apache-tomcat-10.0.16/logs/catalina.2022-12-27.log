@@ -1,0 +1,5 @@
+27-Dec-2022 09:10:15.743 INFORMACIÓN [Thread-3] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Dec-2022 09:10:15.980 INFORMACIÓN [Thread-3] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+27-Dec-2022 09:10:16.186 INFORMACIÓN [Thread-3] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-Dec-2022 09:10:16.201 INFORMACIÓN [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+27-Dec-2022 09:10:43.924 GRAVE [main] org.apache.catalina.startup.Catalina.stopServer Could not contact [localhost:8005] (base port [8005] and offset [0]). Tomcat may not be running.
