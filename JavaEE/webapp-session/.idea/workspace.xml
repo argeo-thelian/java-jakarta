@@ -8,39 +8,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="296af908-f09f-4907-90c3-3ff3722f93a4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../api_collection/src/org/arthe/ejemplos/modelo/Usarfuncion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../modificadoresAcceso/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/logs/localhost.2022-12-22.log" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/logs/localhost.2022-12-22.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/logs/catalina.2022-12-29.log" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/logs/catalina.2022-12-29.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/logs/localhost.2022-12-29.log" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/logs/localhost.2022-12-29.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/logs/localhost_access_log.2022-12-29.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/logs/localhost_access_log.2022-12-29.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/logs/manager.2022-12-29.log" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/logs/manager.2022-12-29.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session.war" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/filters/LoginFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/filters/LoginFilter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session/listar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session/listar.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/work/Catalina/localhost/webapp-session/org/apache/jsp/form_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/work/Catalina/localhost/webapp-session/org/apache/jsp/form_jsp.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/work/Catalina/localhost/webapp-session/org/apache/jsp/listar_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/work/Catalina/localhost/webapp-session/org/apache/jsp/listar_jsp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/work/Catalina/localhost/webapp-session/org/apache/jsp/listar_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/work/Catalina/localhost/webapp-session/org/apache/jsp/listar_jsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/work/Catalina/localhost/webapp-session/org/apache/jsp/login_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/work/Catalina/localhost/webapp-session/org/apache/jsp/login_jsp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/webapp_session_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/webapp_session_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/e/4e3015710b46477a7019d3200e52c496463393d1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webapp-session.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webapp-session.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/arthe/apiservlet/webapp/headers/controllers/ProductoEliminarServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arthe/apiservlet/webapp/headers/controllers/ProductoEliminarServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/arthe/apiservlet/webapp/headers/filters/LoginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arthe/apiservlet/webapp/headers/filters/LoginFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/form.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/listar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/listar.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/arthe/apiservlet/webapp/headers/filters/LoginFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arthe/apiservlet/webapp/headers/filters/LoginFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/webapp-session.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp-session.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/filters/LoginFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp-session/WEB-INF/classes/com/arthe/apiservlet/webapp/headers/filters/LoginFilter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/webapp-session/listar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp-session/listar.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../api_collection/.idea/sonarlint/issuestore/7/4/7470d020ecf3897630f96e3ec9c33d196dc851f4" beforeDir="false" afterPath="$PROJECT_DIR$/../../api_collection/.idea/sonarlint/issuestore/7/4/7470d020ecf3897630f96e3ec9c33d196dc851f4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../api_collection/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../api_collection/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../api_collection/out/production/api_collection/org/arthe/ejemplos/map/EjemploTreeMap2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../api_collection/out/production/api_collection/org/arthe/ejemplos/map/EjemploTreeMap2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../api_collection/src/org/arthe/ejemplos/map/EjemploTreeMap2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../api_collection/src/org/arthe/ejemplos/map/EjemploTreeMap2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../modificadoresAcceso/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../modificadoresAcceso/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +151,7 @@
       <workItem from="1670452946534" duration="55462000" />
       <workItem from="1671479902485" duration="937000" />
       <workItem from="1671508267615" duration="4995000" />
-      <workItem from="1671634524734" duration="21719000" />
+      <workItem from="1671634524734" duration="26827000" />
     </task>
     <servers />
   </component>
