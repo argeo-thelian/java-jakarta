@@ -11,11 +11,9 @@
     <h1>Listado Producto</h1>
     <c:if test="${requestScope.username.isPresent()}">
         <div>
-            <p>
-                Hola <c:out value="${requestScope.username.get()}"/>, bienvenido!
-            </p>
+            <p>Hola ${requestScope.username.get()}, bienvenido!</p>
         </div>
-        <p><a href="<c:out value="${pageContext.request.contextPath}"/>/productos/form">Crear [+]</a></p>
+        <p><a href="${pageContext.request.contextPath}/productos/form">Crear [+]</a></p>
     </c:if>
     <table>
         <tr>
@@ -31,15 +29,15 @@
         </tr>
         <c:forEach items="${productos}" var="p">
         <tr>
-            <td><c:out value="${p.id}"/></td>
-            <td><c:out value="${p.nombre}"/></td>
-            <td><c:out value="${p.categoria.nombre}"/></td>
+            <td>${p.id}"</td>
+            <td>${p.nombre}"</td>
+            <td>${p.categoria.nombre}"</td>
             <c:if test="${username.present}">
-                <td><c:out value="${p.precio}"/></td>
-                <td><a href="${pageContext.request.contextPath}/carro/agregar?id=<c:out value="${p.id}"/>">agregar</a></td>
-                <td><a href="${pageContext.request.contextPath}/productos/form?id=<c:out value="${p.id}"/>">editar</a></td>
+                <td>${p.precio}"</td>
+                <td><a href="${pageContext.request.contextPath}/carro/agregar?id=${p.id}">agregar</a></td>
+                <td><a href="${pageContext.request.contextPath}/productos/form?id=${p.id}">editar</a></td>
                 <td><a onclick="return confirm('Estas seguro que desea eliminar?');"
-                       href="${pageContext.request.contextPath}/productos/eliminar?id=<c:out value="${p.id}"/>">eliminar</a></td>
+                       href="${pageContext.request.contextPath}/productos/eliminar?id=${p.id}">eliminar</a></td>
             </c:if>
         </tr>
         </c:forEach>

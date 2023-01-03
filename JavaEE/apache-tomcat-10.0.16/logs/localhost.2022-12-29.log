@@ -78,3 +78,164 @@
 29-Dec-2022 16:21:10.307 INFORMACIÓN [http-nio-8080-exec-41] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
 29-Dec-2022 16:21:10.883 INFORMACIÓN [http-nio-8080-exec-41] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
 29-Dec-2022 16:52:07.543 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.core.ApplicationContext.log Destrutendo la sesión http.
+29-Dec-2022 18:14:54.021 INFORMACIÓN [http-nio-8080-exec-43] org.apache.catalina.core.ApplicationContext.log Destruyendo la aplicación.
+29-Dec-2022 18:14:56.286 INFORMACIÓN [http-nio-8080-exec-43] org.apache.catalina.core.ApplicationContext.log Inicializando la aplicación.
+29-Dec-2022 18:21:49.164 INFORMACIÓN [http-nio-8080-exec-51] org.apache.catalina.core.ApplicationContext.log Destruyendo la aplicación.
+29-Dec-2022 18:21:50.629 INFORMACIÓN [http-nio-8080-exec-51] org.apache.catalina.core.ApplicationContext.log Inicializando la aplicación.
+29-Dec-2022 18:22:02.733 INFORMACIÓN [http-nio-8080-exec-55] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+29-Dec-2022 18:22:02.798 INFORMACIÓN [http-nio-8080-exec-55] org.apache.catalina.core.ApplicationContext.log Inicialiazando la sesión http.
+29-Dec-2022 18:22:03.298 GRAVE [http-nio-8080-exec-55] org.apache.catalina.core.ApplicationDispatcher.invoke El Servlet.service() para servlet [jsp] lanzó una excepción
+	jakarta.el.PropertyNotFoundException: Propiedad [categoira] no hallada en el tipo [com.arthe.apiservlet.webapp.headers.models.Producto]
+		at jakarta.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:251)
+		at jakarta.el.BeanELResolver$BeanProperties.access$300(BeanELResolver.java:203)
+		at jakarta.el.BeanELResolver.property(BeanELResolver.java:324)
+		at jakarta.el.BeanELResolver.getValue(BeanELResolver.java:83)
+		at org.apache.jasper.el.JasperELResolver.getValue(JasperELResolver.java:124)
+		at org.apache.el.parser.AstValue.getValue(AstValue.java:168)
+		at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:189)
+		at org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate(PageContextImpl.java:702)
+		at org.apache.jsp.listar_jsp._jspx_meth_c_005fout_005f4(listar_jsp.java:435)
+		at org.apache.jsp.listar_jsp._jspx_meth_c_005fforEach_005f0(listar_jsp.java:347)
+		at org.apache.jsp.listar_jsp._jspService(listar_jsp.java:158)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:691)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:441)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:367)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:295)
+		at com.arthe.apiservlet.webapp.headers.controllers.ProductoServlet.doGet(ProductoServlet.java:30)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:668)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at com.arthe.apiservlet.webapp.headers.filters.ConexionFilter.doFilter(ConexionFilter.java:24)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:355)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:866)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1708)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+29-Dec-2022 18:22:03.301 GRAVE [http-nio-8080-exec-55] org.apache.catalina.core.StandardWrapperValve.invoke El Servlet.service() para el servlet [com.arthe.apiservlet.webapp.headers.controllers.ProductoServlet] en el contexto con ruta [/webapp-session] lanzó la excepción [Ha sucedido una excepción al procesar la página JSP [/listar.jsp] en línea [36]
+
+33:         <tr>
+34:             <td><c:out value="${p.id}"/></td>
+35:             <td><c:out value="${p.nombre}"/></td>
+36:             <td><c:out value="${p.categoira.nombre}"/></td>
+37:             <c:if test="${username.present}">
+38:                 <td><c:out value="${p.precio}"/></td>
+39:                 <td><a href="${pageContext.request.contextPath}/carro/agregar?id=<c:out value="${p.id}"/>">agregar</a></td>
+
+
+Stacktrace:] con causa raíz
+	jakarta.el.PropertyNotFoundException: Propiedad [categoira] no hallada en el tipo [com.arthe.apiservlet.webapp.headers.models.Producto]
+		at jakarta.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:251)
+		at jakarta.el.BeanELResolver$BeanProperties.access$300(BeanELResolver.java:203)
+		at jakarta.el.BeanELResolver.property(BeanELResolver.java:324)
+		at jakarta.el.BeanELResolver.getValue(BeanELResolver.java:83)
+		at org.apache.jasper.el.JasperELResolver.getValue(JasperELResolver.java:124)
+		at org.apache.el.parser.AstValue.getValue(AstValue.java:168)
+		at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:189)
+		at org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate(PageContextImpl.java:702)
+		at org.apache.jsp.listar_jsp._jspx_meth_c_005fout_005f4(listar_jsp.java:435)
+		at org.apache.jsp.listar_jsp._jspx_meth_c_005fforEach_005f0(listar_jsp.java:347)
+		at org.apache.jsp.listar_jsp._jspService(listar_jsp.java:158)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:691)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:441)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:367)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:295)
+		at com.arthe.apiservlet.webapp.headers.controllers.ProductoServlet.doGet(ProductoServlet.java:30)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:668)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at com.arthe.apiservlet.webapp.headers.filters.ConexionFilter.doFilter(ConexionFilter.java:24)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:355)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:866)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1708)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+29-Dec-2022 18:22:03.301 INFORMACIÓN [http-nio-8080-exec-55] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+29-Dec-2022 18:23:27.116 INFORMACIÓN [http-nio-8080-exec-59] org.apache.catalina.core.ApplicationContext.log Destrutendo la sesión http.
+29-Dec-2022 18:23:27.117 INFORMACIÓN [http-nio-8080-exec-59] org.apache.catalina.core.ApplicationContext.log Destruyendo la aplicación.
+29-Dec-2022 18:23:29.979 INFORMACIÓN [http-nio-8080-exec-59] org.apache.catalina.core.ApplicationContext.log Inicializando la aplicación.
+29-Dec-2022 18:29:36.560 INFORMACIÓN [http-nio-8080-exec-63] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+29-Dec-2022 18:29:36.604 INFORMACIÓN [http-nio-8080-exec-63] org.apache.catalina.core.ApplicationContext.log Inicialiazando la sesión http.
+29-Dec-2022 18:29:36.903 INFORMACIÓN [http-nio-8080-exec-63] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+29-Dec-2022 18:29:42.219 INFORMACIÓN [http-nio-8080-exec-64] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+29-Dec-2022 18:29:42.239 INFORMACIÓN [http-nio-8080-exec-64] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+29-Dec-2022 18:29:49.150 INFORMACIÓN [http-nio-8080-exec-66] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+29-Dec-2022 18:29:49.253 INFORMACIÓN [http-nio-8080-exec-66] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+29-Dec-2022 18:29:55.276 INFORMACIÓN [http-nio-8080-exec-67] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+29-Dec-2022 18:29:55.293 INFORMACIÓN [http-nio-8080-exec-67] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+29-Dec-2022 18:29:55.317 INFORMACIÓN [http-nio-8080-exec-68] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+29-Dec-2022 18:29:55.336 INFORMACIÓN [http-nio-8080-exec-68] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+29-Dec-2022 18:29:59.447 INFORMACIÓN [http-nio-8080-exec-69] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+29-Dec-2022 18:29:59.501 INFORMACIÓN [http-nio-8080-exec-69] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+29-Dec-2022 18:30:02.850 INFORMACIÓN [http-nio-8080-exec-62] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+29-Dec-2022 18:30:03.005 INFORMACIÓN [http-nio-8080-exec-62] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+29-Dec-2022 18:30:04.536 INFORMACIÓN [http-nio-8080-exec-52] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+29-Dec-2022 18:30:04.556 INFORMACIÓN [http-nio-8080-exec-52] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+29-Dec-2022 18:30:08.701 INFORMACIÓN [http-nio-8080-exec-70] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+29-Dec-2022 18:30:08.733 INFORMACIÓN [http-nio-8080-exec-70] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+29-Dec-2022 18:30:08.736 INFORMACIÓN [http-nio-8080-exec-63] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+29-Dec-2022 18:30:08.766 INFORMACIÓN [http-nio-8080-exec-63] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+29-Dec-2022 18:30:11.295 INFORMACIÓN [http-nio-8080-exec-64] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+29-Dec-2022 18:30:11.320 INFORMACIÓN [http-nio-8080-exec-64] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+29-Dec-2022 18:30:11.325 INFORMACIÓN [http-nio-8080-exec-65] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+29-Dec-2022 18:30:11.466 INFORMACIÓN [http-nio-8080-exec-65] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+29-Dec-2022 18:30:15.770 INFORMACIÓN [http-nio-8080-exec-66] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+29-Dec-2022 18:30:15.806 INFORMACIÓN [http-nio-8080-exec-66] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+29-Dec-2022 19:00:29.313 INFORMACIÓN [Catalina-utility-2] org.apache.catalina.core.ApplicationContext.log Destrutendo la sesión http.
