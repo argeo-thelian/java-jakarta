@@ -1,0 +1,24 @@
+
+L
+java:S1854"6Remove this useless assignment to local variable "b4".(…±‡é
+P
+java:S1854"5Remove this useless assignment to local variable "c".(Öƒ˜±þÿÿÿÿ
+D
+java:S1172")Remove this unused method parameter "op".(êëÌžýÿÿÿÿ
+A
+java:S1481"&Remove this unused "c" local variable.(Öƒ˜±þÿÿÿÿ
+7
+java:S2129"!Remove this "Integer" constructor(…±‡é
+=
+java:S1481"'Remove this unused "b4" local variable.(…±‡é
+f	java:S128!"LEnd this switch case with an unconditional break, return or throw statement.(Ý–Ò˜ÿÿÿÿÿ
+F
+java:S4524!"+Move this default to the end of the switch.(Ý–Ò˜ÿÿÿÿÿ
+S	java:S106""9Replace this use of System.out or System.err by a logger.(Ç‚þ©ÿÿÿÿÿ
+M	java:S106$"9Replace this use of System.out or System.err by a logger.(€Ë²:
+u
+java:S1128"_Remove this unused import 'com.arthe.apiservlet.webapp.headers.services.LoginSeviceCookieImpl'.(üšÍÊ
+Q
+java:S1128";Remove this unused import 'jakarta.servlet.GenericServlet'.(¢ÁÑ¾
+a
+java:S1301 "KReplace this "switch" statement by "if" statements to increase readability.(µÍ»‚

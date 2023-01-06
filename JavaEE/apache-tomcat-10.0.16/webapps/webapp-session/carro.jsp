@@ -6,17 +6,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Carro de Compras</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </head>
 <body>
 <h1>Carro de Compras</h1>
 
 <c:choose>
     <c:when test="${sessionScope.carro == null || sessionScope.carro.items.isEmpty()}">
-        <p>Lo sentimos no hay productos en el carro de compras!</p>
+        <div class="alert alert-warning">Lo sentimos no hay productos en el carro de compras!</div>
     </c:when>
     <c:otherwise>
         <form name="formcarro" action="${pageContext.request.contextPath}/carro/actualizar" method="post">
-            <table>
+            <table class="table table-hover table-striped">
                 <tr>
                     <th>id</th>
                     <th>nombre</th>
@@ -53,12 +55,14 @@
                     </td>
                 </tr>
             </table>
-            <input type="submit" value="Actualizar">
+            <input class="btn btn-sm btn-primary" type="submit" value="Actualizar"/>
         </form>
     </c:otherwise>
 </c:choose>
 
-<p><a href="${pageContext.request.contextPath}/productos">seguir comprando</a></p>
-<p><a href="${pageContext.request.contextPath}/index.html">volver</a></p>
+<div class="my-2">
+    <a class="btn btn-sm btn-success" href="${pageContext.request.contextPath}/productos">seguir comprando</a>
+    <a class="btn btn-sm btn-secondary" href="${pageContext.request.contextPath}/index.html">volver</a>
+</div>
 </body>
 </html>

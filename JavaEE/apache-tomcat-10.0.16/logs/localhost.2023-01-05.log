@@ -1,0 +1,24 @@
+05-Jan-2023 15:40:35.137 INFO [main] org.apache.catalina.core.ApplicationContext.log Inicializando la aplicación.
+05-Jan-2023 15:40:35.992 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+05-Jan-2023 15:40:35.993 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+05-Jan-2023 15:40:35.994 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@6d821475')
+05-Jan-2023 15:40:42.523 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Destruyendo la aplicación.
+05-Jan-2023 15:40:43.526 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Inicializando la aplicación.
+05-Jan-2023 15:40:49.078 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+05-Jan-2023 15:40:49.769 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+05-Jan-2023 15:40:50.826 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+05-Jan-2023 15:40:50.879 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Inicialiazando la sesión http.
+05-Jan-2023 15:40:51.869 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+05-Jan-2023 15:40:54.284 INFO [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+05-Jan-2023 15:40:54.412 INFO [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+05-Jan-2023 15:41:08.205 INFO [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+05-Jan-2023 15:41:08.227 INFO [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+05-Jan-2023 15:41:27.796 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+05-Jan-2023 15:41:27.818 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+05-Jan-2023 15:41:27.821 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+05-Jan-2023 15:41:27.838 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+05-Jan-2023 15:41:29.667 INFO [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+05-Jan-2023 15:41:29.689 INFO [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+05-Jan-2023 15:41:30.301 INFO [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log Inicializando el request!
+05-Jan-2023 15:41:30.349 INFO [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log Destruyendo el request!
+05-Jan-2023 16:11:39.453 INFO [Catalina-utility-1] org.apache.catalina.core.ApplicationContext.log Destrutendo la sesión http.
