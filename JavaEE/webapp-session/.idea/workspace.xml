@@ -8,32 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="296af908-f09f-4907-90c3-3ff3722f93a4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/logs/catalina.2023-01-02.log" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/logs/catalina.2023-01-02.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/logs/localhost.2023-01-02.log" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/logs/localhost.2023-01-02.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/logs/localhost_access_log.2023-01-02.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/logs/localhost_access_log.2023-01-02.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/logs/manager.2023-01-02.log" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/logs/manager.2023-01-02.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session.war" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session/carro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session/carro.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session/form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session/form.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session/listar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session/listar.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/webapps/webapp-session/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/work/Catalina/localhost/webapp-session/org/apache/jsp/carro_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/work/Catalina/localhost/webapp-session/org/apache/jsp/carro_jsp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/work/Catalina/localhost/webapp-session/org/apache/jsp/listar_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/work/Catalina/localhost/webapp-session/org/apache/jsp/listar_jsp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/work/Catalina/localhost/webapp-session/org/apache/jsp/listar_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/work/Catalina/localhost/webapp-session/org/apache/jsp/listar_jsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/work/Catalina/localhost/webapp-session/org/apache/jsp/login_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/work/Catalina/localhost/webapp-session/org/apache/jsp/login_jsp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-10.0.16/work/Catalina/localhost/webapp-session/org/apache/jsp/login_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-10.0.16/work/Catalina/localhost/webapp-session/org/apache/jsp/login_jsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/carro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/carro.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/form.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/listar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/listar.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/webapp-session.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp-session.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/webapp-session/carro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp-session/carro.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/webapp-session/form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp-session/form.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/webapp-session/listar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp-session/listar.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/webapp-session/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp-session/login.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +142,7 @@
       <workItem from="1671634524734" duration="31891000" />
       <workItem from="1672880580804" duration="606000" />
       <workItem from="1672936317220" duration="3823000" />
-      <workItem from="1673017871670" duration="590000" />
+      <workItem from="1673017871670" duration="1271000" />
     </task>
     <servers />
   </component>

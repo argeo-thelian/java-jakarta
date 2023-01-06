@@ -1,0 +1,11 @@
+"id";"nombre";"descripcion";"instructor";"duracion"
+1;"Máster Completo en Java de cero a experto con IntelliJ";"Aprende Java SE, Jakarta EE, Hibernate y mas";"Andres Guzman";98.53
+2;"Spring Framework 5: Creando webapp de cero a experto";"Construye aplicaciones web con Spring Framework 5 & Spring Boot";"Andres Guzman";41.51
+3;"Angular & Spring Boot: Creando web app full stack";"Desarrollo frontend con Angular y backend Spring Boot 2";"Andres Guzman";23.54
+4;"Microservicios con Spring Boot y Spring Cloud Netflix Eureka";"Construye Microservicios Spring Boot 2, Eureka, Spring Cloud";"Andres Guzman";19.55
+5;"Guía Completa JUnit y Mockito incluye Spring Boot Test";"Aprende desde cero JUnit 5 y Mockito en Spring Boot 2";"Andres Guzman";15.12
+6;"Máster Completo en Java de cero a experto con IntelliJ";"Aprende Java SE, Jakarta EE, Hibernate y mas";"Andres Guzman";98.53
+7;"Spring Framework 5: Creando webapp de cero a experto";"Construye aplicaciones web con Spring Framework 5 & Spring Boot";"Andres Guzman";41.51
+8;"Angular & Spring Boot: Creando web app full stack";"Desarrollo frontend con Angular y backend Spring Boot 2";"Andres Guzman";23.54
+9;"Microservicios con Spring Boot y Spring Cloud Netflix Eureka";"Construye Microservicios Spring Boot 2, Eureka, Spring Cloud";"Andres Guzman";19.55
+10;"Guía Completa JUnit y Mockito incluye Spring Boot Test";"Aprende desde cero JUnit 5 y Mockito en Spring Boot 2";"Andres Guzman";15.12
